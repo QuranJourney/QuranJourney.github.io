@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Living Quran | Chronological Study</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #f8f9fa;
+            --header-bg: #2c5282; /* Deep Blue */
+            --section-title: #2b6cb0; /* Bright Blue */
+            --text-color: #2d3748;
+            --card-bg: #ffffff;
+            --hover-bg: #ebf8ff;
+        }
+
+        body { font-family: 'Inter', sans-serif; background-color: var(--bg-color); color: var(--text-color); margin: 0; padding: 0; }
+
+        header {
+            background: var(--header-bg); color: white; padding: 4rem 1rem; text-align: center;
+        }
+        header h1 { font-family: 'Merriweather', serif; font-size: 3rem; margin: 0; }
+        header p { font-size: 1.2rem; opacity: 0.9; margin-top: 1rem; }
+
+        .container { max-width: 1100px; margin: 0 auto; padding: 2rem 1rem; }
+
+        /* Phases Sections */
+        .phase-section { margin-bottom: 4rem; }
+        .phase-header {
+            border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 2rem;
+            display: flex; justify-content: space-between; align-items: flex-end;
+        }
+        .phase-title { font-family: 'Merriweather', serif; font-size: 1.8rem; color: var(--section-title); margin: 0; }
+        .phase-desc { font-size: 0.9rem; color: #718096; text-transform: uppercase; letter-spacing: 1px; font-weight: 600; }
+
+        /* Grid */
+        .surah-grid {
+            display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1rem;
+        }
+
+        /* Surah Button */
+        .surah-card {
+            background: var(--card-bg); border: 1px solid #e2e8f0; border-radius: 8px;
+            padding: 1.5rem; text-decoration: none; color: var(--text-color);
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: flex; flex-direction: column; justify-content: space-between; height: 100px;
+        }
+        .surah-card:hover {
+            transform: translateY(-3px); box-shadow: 0 10px 15px rgba(0,0,0,0.05);
+            background-color: var(--hover-bg); border-color: var(--section-title);
+        }
+        
+        .top-row { display: flex; justify-content: space-between; align-items: flex-start; }
+        .chrono-badge { 
+            background: #edf2f7; color: #4a5568; font-size: 0.75rem; padding: 2px 8px; border-radius: 4px; font-weight: 600; 
+        }
+        .surah-name { font-family: 'Merriweather', serif; font-weight: 700; font-size: 1.1rem; }
+        .surah-meaning { font-size: 0.85rem; color: #718096; }
+
+        /* Footer */
+        footer { text-align: center; padding: 3rem; color: #718096; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>The Living Quran</h1>
+    <p>A Chronological Deep Dive into Revelation</p>
+</header>
+
+<div class="container">
+
+    <div class="phase-section">
+        <div class="phase-header">
+            <h2 class="phase-title">Phase 1: The Awakening</h2>
+            <span class="phase-desc">Early Makkan • The Soul & The Afterlife</span>
+        </div>
+        <div class="surah-grid">
+            <a href="surah-1-alaq.html" class="surah-card">
+                <div class="top-row"><span class="chrono-badge">#1</span></div>
+                <div><div class="surah-name">Al-Alaq</div><div class="surah-meaning">The Clot</div></div>
+            </a>
+            <a href="surah-2-qalam.html" class="surah-card">
+                <div class="top-row"><span class="chrono-badge">#2</span></div>
+                <div><div class="surah-name">Al-Qalam</div><div class="surah-meaning">The Pen</div></div>
+            </a>
+            <a href="#" class="surah-card">
+                <div class="top-row"><span class="chrono-badge">#3</span></div>
+                <div><div class="surah-name">Al-Muzzammil</div><div class="surah-meaning">The Enshrouded</div></div>
+            </a>
+            <a href="#" class="surah-card">
+                <div class="top-row"><span class="chrono-badge">#4</span></div>
+                <div><div class="surah-name">Al-Muddathir</div><div class="surah-meaning">The Cloaked</div></div>
+            </a>
+            <a href="#" class="surah-card">
+                <div class="top-row"><span class="chrono-badge">#5</span></div>
+                <div><div class="surah-name">Al-Fatiha</div><div class="surah-meaning">The Opening</div></div>
+            </a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#6</span></div><div><div class="surah-name">Al-Lahab</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#7</span></div><div><div class="surah-name">At-Takwir</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#8</span></div><div><div class="surah-name">Al-A'la</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#9</span></div><div><div class="surah-name">Al-Layl</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#10</span></div><div><div class="surah-name">Al-Fajr</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#11</span></div><div><div class="surah-name">Ad-Duha</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#12</span></div><div><div class="surah-name">Ash-Sharh</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#13</span></div><div><div class="surah-name">Al-Asr</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#14</span></div><div><div class="surah-name">Al-Adiyat</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#15</span></div><div><div class="surah-name">Al-Kawthar</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#16</span></div><div><div class="surah-name">At-Takathur</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#17</span></div><div><div class="surah-name">Al-Ma'un</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#18</span></div><div><div class="surah-name">Al-Kafirun</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#19</span></div><div><div class="surah-name">Al-Fil</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#20</span></div><div><div class="surah-name">Al-Falaq</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#21</span></div><div><div class="surah-name">An-Nas</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#22</span></div><div><div class="surah-name">Al-Ikhlas</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#23</span></div><div><div class="surah-name">An-Najm</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#24</span></div><div><div class="surah-name">Abasa</div></div></a>
+        </div>
+    </div>
+
+    <div class="phase-section">
+        <div class="phase-header">
+            <h2 class="phase-title">Phase 2: The Struggle</h2>
+            <span class="phase-desc">Middle Makkan • History & Perseverance</span>
+        </div>
+        <div class="surah-grid">
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#25</span></div><div><div class="surah-name">Al-Qadr</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#26</span></div><div><div class="surah-name">Ash-Shams</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#27</span></div><div><div class="surah-name">Al-Buruj</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#28</span></div><div><div class="surah-name">At-Tin</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#29</span></div><div><div class="surah-name">Quraysh</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#30</span></div><div><div class="surah-name">Al-Qari'ah</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#31</span></div><div><div class="surah-name">Al-Qiyamah</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#32</span></div><div><div class="surah-name">Al-Humazah</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#33</span></div><div><div class="surah-name">Al-Mursalat</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#34</span></div><div><div class="surah-name">Qaf</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#35</span></div><div><div class="surah-name">Al-Balad</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#36</span></div><div><div class="surah-name">At-Tariq</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#37</span></div><div><div class="surah-name">Al-Qamar</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#38</span></div><div><div class="surah-name">Sad</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#39</span></div><div><div class="surah-name">Al-A'raf</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#40</span></div><div><div class="surah-name">Al-Jinn</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#41</span></div><div><div class="surah-name">Ya-Sin</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#42</span></div><div><div class="surah-name">Al-Furqan</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#43</span></div><div><div class="surah-name">Fatir</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#44</span></div><div><div class="surah-name">Maryam</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#45</span></div><div><div class="surah-name">Taha</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#46</span></div><div><div class="surah-name">Al-Waqi'ah</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#47</span></div><div><div class="surah-name">Ash-Shu'ara</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#48</span></div><div><div class="surah-name">An-Naml</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#49</span></div><div><div class="surah-name">Al-Qasas</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#50</span></div><div><div class="surah-name">Al-Isra</div></div></a>
+        </div>
+    </div>
+
+    <div class="phase-section">
+        <div class="phase-header">
+            <h2 class="phase-title">Phase 3: The Fortress</h2>
+            <span class="phase-desc">Late Makkan • Creed & Establishing Truth</span>
+        </div>
+        <div class="surah-grid">
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#51</span></div><div><div class="surah-name">Yunus</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#52</span></div><div><div class="surah-name">Hud</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#53</span></div><div><div class="surah-name">Yusuf</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#54</span></div><div><div class="surah-name">Al-Hijr</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#55</span></div><div><div class="surah-name">Al-An'am</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#56</span></div><div><div class="surah-name">As-Saffat</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#57</span></div><div><div class="surah-name">Luqman</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#58</span></div><div><div class="surah-name">Saba</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#59</span></div><div><div class="surah-name">Az-Zumar</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#60</span></div><div><div class="surah-name">Ghafir</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#61</span></div><div><div class="surah-name">Fussilat</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#62</span></div><div><div class="surah-name">Ash-Shura</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#63</span></div><div><div class="surah-name">Az-Zukhruf</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#64</span></div><div><div class="surah-name">Ad-Dukhan</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#65</span></div><div><div class="surah-name">Al-Jathiyah</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#66</span></div><div><div class="surah-name">Al-Ahqaf</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#67</span></div><div><div class="surah-name">Adh-Dhariyat</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#68</span></div><div><div class="surah-name">Al-Ghashiyah</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#69</span></div><div><div class="surah-name">Al-Kahf</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#70</span></div><div><div class="surah-name">An-Nahl</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#71</span></div><div><div class="surah-name">Nuh</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#72</span></div><div><div class="surah-name">Ibrahim</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#73</span></div><div><div class="surah-name">Al-Anbiya</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#74</span></div><div><div class="surah-name">Al-Mu'minun</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#75</span></div><div><div class="surah-name">As-Sajdah</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#76</span></div><div><div class="surah-name">At-Tur</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#77</span></div><div><div class="surah-name">Al-Mulk</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#78</span></div><div><div class="surah-name">Al-Haqqah</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#79</span></div><div><div class="surah-name">Al-Ma'arij</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#80</span></div><div><div class="surah-name">An-Naba</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#81</span></div><div><div class="surah-name">An-Nazi'at</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#82</span></div><div><div class="surah-name">Al-Infitar</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#83</span></div><div><div class="surah-name">Al-Inshiqaq</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#84</span></div><div><div class="surah-name">Ar-Rum</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#85</span></div><div><div class="surah-name">Al-Ankabut</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#86</span></div><div><div class="surah-name">Al-Mutaffifin</div></div></a>
+        </div>
+    </div>
+
+    <div class="phase-section">
+        <div class="phase-header">
+            <h2 class="phase-title">Phase 4: The Foundation</h2>
+            <span class="phase-desc">Early Madani • Society, Law & Identity</span>
+        </div>
+        <div class="surah-grid">
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#87</span></div><div><div class="surah-name">Al-Baqarah</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#88</span></div><div><div class="surah-name">Al-Anfal</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#89</span></div><div><div class="surah-name">Al-Imran</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#90</span></div><div><div class="surah-name">Al-Ahzab</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#91</span></div><div><div class="surah-name">Al-Mumtahanah</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#92</span></div><div><div class="surah-name">An-Nisa</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#93</span></div><div><div class="surah-name">Az-Zalzalah</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#94</span></div><div><div class="surah-name">Al-Hadid</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#95</span></div><div><div class="surah-name">Muhammad</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#96</span></div><div><div class="surah-name">Ar-Ra'd</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#97</span></div><div><div class="surah-name">Ar-Rahman</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#98</span></div><div><div class="surah-name">Al-Insan</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#99</span></div><div><div class="surah-name">At-Talaq</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#100</span></div><div><div class="surah-name">Al-Bayyinah</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#101</span></div><div><div class="surah-name">Al-Hashr</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#102</span></div><div><div class="surah-name">An-Nur</div></div></a>
+        </div>
+    </div>
+
+    <div class="phase-section">
+        <div class="phase-header">
+            <h2 class="phase-title">Phase 5: The Perfection</h2>
+            <span class="phase-desc">Late Madani • Completion of the Deen</span>
+        </div>
+        <div class="surah-grid">
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#103</span></div><div><div class="surah-name">Al-Hajj</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#104</span></div><div><div class="surah-name">Al-Munafiqun</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#105</span></div><div><div class="surah-name">Al-Mujadila</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#106</span></div><div><div class="surah-name">Al-Hujurat</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#107</span></div><div><div class="surah-name">At-Tahrim</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#108</span></div><div><div class="surah-name">At-Taghabun</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#109</span></div><div><div class="surah-name">As-Saff</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#110</span></div><div><div class="surah-name">Al-Jumu'ah</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#111</span></div><div><div class="surah-name">Al-Fath</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#112</span></div><div><div class="surah-name">Al-Ma'idah</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#113</span></div><div><div class="surah-name">At-Tawbah</div></div></a>
+            <a href="#" class="surah-card"><div class="top-row"><span class="chrono-badge">#114</span></div><div><div class="surah-name">An-Nasr</div></div></a>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <p>A Personal Ramadan Project</p>
+</footer>
+</body>
+</html>
