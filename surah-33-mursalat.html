@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surah Al-Mursalat | The Emissaries</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;600&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #ffffff; --text-color: #2d3748; --primary-accent: #2b6cb0; 
+            --border-color: #e2e8f0; --tag-bg: #e6fffa; --tag-text: #2c7a7b;
+            --context-color: #d69e2e; --sufi-color: #38a169; --wisdom-color: #805ad5; --plain-color: #718096; 
+        }
+        body { font-family: 'Inter', sans-serif; background: var(--bg-color); color: var(--text-color); margin: 0; padding: 0; line-height: 1.6; }
+        .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
+        .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
+        .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
+        .nav-link:hover { text-decoration: underline; }
+        .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
+        .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
+        header { text-align: center; padding: 3rem 1rem 2rem; background: linear-gradient(180deg, #f7fafc 0%, #ffffff 100%); }
+        h1 { font-family: 'Merriweather', serif; font-size: 2.8rem; margin: 0; color: #1a202c; }
+        .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
+        .intro-text { max-width: 650px; margin: 1.5rem auto 0; font-style: italic; color: #4a5568; }
+        .container { max-width: 900px; margin: 0 auto; padding: 0 1rem 4rem; }
+        .verse-card { background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
+        .verse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid #edf2f7; padding-bottom: 0.8rem; }
+        .verse-number { background: var(--primary-accent); color: white; padding: 0.2rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
+        .arabic { font-family: 'Amiri', serif; font-size: 2.4rem; text-align: right; color: #2d3748; margin-bottom: 1.5rem; line-height: 2.2; }
+        .translation { font-family: 'Merriweather', serif; font-size: 1.2rem; color: #1a202c; margin-bottom: 2rem; border-left: 4px solid var(--primary-accent); padding-left: 1rem; }
+        .insights { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+        .insight-box { background: #fff; padding: 1.2rem; border-radius: 8px; border: 1px solid #e2e8f0; border-left-width: 4px; }
+        .insight-box.plain { border-left-color: var(--plain-color); background: #f7fafc; }
+        .insight-box.context { border-left-color: var(--context-color); }
+        .insight-box.sufi { border-left-color: var(--sufi-color); }
+        .insight-box.hikam { border-left-color: var(--wisdom-color); }
+        .label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 0.5rem; }
+        .plain .label { color: var(--plain-color); }
+        .context .label { color: var(--context-color); }
+        .sufi .label { color: var(--sufi-color); }
+        .hikam .label { color: var(--wisdom-color); }
+        .content { font-size: 0.95rem; color: #4a5568; }
+        .tags { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; padding-top: 1rem; border-top: 1px solid #edf2f7; }
+        .tag { background: var(--tag-bg); color: var(--tag-text); padding: 0.2rem 0.7rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
+    </style>
+</head>
+<body>
+
+<div class="nav-bar">
+    <div class="nav-controls">
+        <a href="index.html" class="nav-link home-btn">⌂ Dashboard</a>
+        <a href="surah-32-humazah.html" class="nav-link">← Prev</a>
+        <a href="surah-34-qaf.html" class="nav-link">Next →</a>
+    </div>
+    <span style="font-weight: 600; color: #718096; font-size: 0.9rem;">Mushaf: #77 | Chronological: #33</span>
+</div>
+
+<header>
+    <h1>Surah Al-Mursalat</h1>
+    <div class="meta">The Emissaries • Makkah • 50 Verses (Part 1: 1-24)</div>
+    <div class="intro-text">
+        The Unstoppable Decree. Opening with oaths upon the violent forces of nature and the angels, this Surah drives home a terrifying, ten-fold refrain warning the deniers of the inescapable reality of Divine Judgment.
+    </div>
+</header>
+
+<div class="container">
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 1</span></div>
+        <div class="arabic">وَٱلْمُرْسَلَـٰتِ عُرْفًۭا</div>
+        <div class="translation">"By those [winds] sent forth in gusts"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">An oath sworn by the winds that are unleashed in continuous, successive waves.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">Scholars have two main interpretations for these opening verses: they either refer to the physical winds of nature, or the spiritual "winds"—the angels descending successively with revelation. Both are forces sent by God that cannot be stopped by human technology.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The "winds" represent the continuous, flowing waves of Divine inspiration and mercy that sweep over the awakened heart, washing away the stagnant air of heedlessness.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Attributes of Allah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 2</span></div>
+        <div class="arabic">فَٱلْعَـٰصِفَـٰتِ عَصْفًۭا</div>
+        <div class="translation">"And the winds that blow violently"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And by the hurricane-force winds that roar and destroy everything in their path.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">God is the Lord of the gentle breeze (v. 1) and the violent hurricane (v. 2). He controls both His Beauty (Jamal) and His Majesty/Wrath (Jalal). Do not be so comforted by the breeze that you forget He can unleash the hurricane.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 3</span></div>
+        <div class="arabic">وَٱلنَّـٰشِرَٰتِ نَشْرًۭا</div>
+        <div class="translation">"And [by] the winds that scatter [clouds] widely"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And by the forces that spread the rain clouds across the dead earth to bring life.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">If referring to angels, these are the angels that "scatter" the verses of revelation across the hearts of the Prophets, bringing spiritual life to a dead society.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Hope</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 4</span></div>
+        <div class="arabic">فَٱلْفَـٰرِقَـٰتِ فَرْقًۭا</div>
+        <div class="translation">"And those who separate [truth from falsehood] distinctly"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And by the forces that absolutely, clearly divide right from wrong.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">The highest function of the intellect, once illuminated by revelation, is "Furqan" (discernment). It allows the seeker to cleanly separate the whisper of the ego from the command of God, no matter how blurred they look to the masses.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Spiritual Practice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 5</span></div>
+        <div class="arabic">فَٱلْمُلْقِيَـٰتِ ذِكْرًا</div>
+        <div class="translation">"And those who deliver a reminder,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And by the angels who cast down the ultimate reminder (the Quran) to the Messengers.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Revelation is fundamentally a "Dhikr" (reminder). The human soul already knew God in the pre-eternal realm. The Prophets do not bring a foreign concept; they merely dust off the mirror of your heart so you remember what you already knew.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 6</span></div>
+        <div class="arabic">عُذْرًا أَوْ نُذْرًا</div>
+        <div class="translation">"As justification or warning -"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This reminder is sent to leave humanity with absolutely no excuses, and to severely warn them of the consequences.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">God does not punish a people until He sends a clear warning. The Quran is the final "Udhr" (elimination of excuses). On Judgment Day, no one can say "I didn't know."</div></div>
+        </div>
+        <div class="tags"><span class="tag">Accountability</span><span class="tag">Warning</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 7</span></div>
+        <div class="arabic">إِنَّمَا تُوعَدُونَ لَوَٰقِعٌۭ</div>
+        <div class="translation">"Indeed, what you are promised is to occur."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This is the subject of all those oaths: Without a doubt, the Resurrection you have been promised is going to happen.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The ego lives in the illusion of "maybe." *Maybe* I have time to repent later. *Maybe* the Judgment isn't that severe. God shatters the "maybe" with absolute certainty: It is falling upon you.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 8</span></div>
+        <div class="arabic">فَإِذَا ٱلنُّجُومُ طُمِسَتْ</div>
+        <div class="translation">"So when the stars are obliterated"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This Day will strike when the glowing stars are completely snuffed out and lose their light.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Tumasat" means to wipe out completely, like erasing ink from a page. The stars, which the Arabs relied upon for their very survival in the desert, will simply be deleted from the night sky.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 9</span></div>
+        <div class="arabic">وَإِذَا ٱلسَّمَآءُ فُرِجَتْ</div>
+        <div class="translation">"And when the heaven is cleft asunder"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And when the massive, flawless dome of the sky violently splits open.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The physical heaven splitting is a mirror to the veil of the Unseen splitting. The barrier between the physical world and the spiritual reality drops. The angels descend, and the human being is left exposed to the raw Truth.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Attributes of Allah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 10</span></div>
+        <div class="arabic">وَإِذَا ٱلْجِبَالُ نُسِفَتْ</div>
+        <div class="translation">"And when the mountains are blown away"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And when the solid, heavy mountains are uprooted and blown away like dust.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">If God can blow away the mountains of stone with a single command, He can easily blow away the mountains of anxiety, depression, and sin in your heart. Submit your heavy burdens to the One who moves mountains.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Hope</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 11</span></div>
+        <div class="arabic">وَإِذَا ٱلرُّسُلُ أُقِّتَتْ</div>
+        <div class="translation">"And when the messengers' time has come..."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And when all the Prophets of history are gathered at their appointed time to testify against their nations.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">This is the ultimate courtroom scene. The Prophets (Noah, Abraham, Moses, Jesus, Muhammad) are summoned not as kings, but as key witnesses to confirm that they delivered the message, entirely removing any excuse for the deniers.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Accountability</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 12</span></div>
+        <div class="arabic">لِأَىِّ يَوْمٍ أُجِّلَتْ</div>
+        <div class="translation">"For what Day was it delayed?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Until what massive, terrifying Day has all of this accounting been delayed?</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">A rhetorical question to build immense dread. God often delays justice in the Dunya to give sinners a chance to repent. The ego mistakes this delay for immunity. This verse announces the end of the delay.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 13</span></div>
+        <div class="arabic">لِيَوْمِ ٱلْفَصْلِ</div>
+        <div class="translation">"For the Day of Judgement [Decision]."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">It has all been delayed for the Day of Absolute Separation and Decision.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Fasl" means to cut or separate cleanly. In this world, the hypocrite prays next to the sincere believer. The oppressor eats at the same table as the oppressed. On the Day of Fasl, the line is cleanly cut: the inhabitants of Heaven are separated from the inhabitants of Hell forever.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Accountability</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 14</span></div>
+        <div class="arabic">وَمَآ أَدْرَىٰكَ مَا يَوْمُ ٱلْفَصْلِ</div>
+        <div class="translation">"And what can make you know what is the Day of Judgement?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And what could possibly make your mind comprehend the sheer terror and finality of this Day of Separation?</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">You cannot comprehend it intellectually; you must prepare for it practically. Stop trying to calculate the physics of the Day of Judgment and start calculating the weight of your own deeds today.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Humility</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 15</span></div>
+        <div class="arabic">وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ</div>
+        <div class="translation">"Woe, that Day, to the deniers."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Absolute destruction and misery on that Day to those who called the truth a lie!</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">This is the **First** occurrence of the haunting refrain that will repeat 10 times in this Surah. It strikes the soul like a bell tolling the execution. "Wayl" is a promise of severe ruin or a specific, horrific valley in Hell.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Punishment</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 16</span></div>
+        <div class="arabic">أَلَمْ نُهْلِكِ ٱلْأَوَّلِينَ</div>
+        <div class="translation">"Did We not destroy the former peoples?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Did We not completely wipe out the ancient civilizations who arrogantly rejected the truth?</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">God directs our attention to the graveyard of history. The ruins of 'Aad and Thamud are physical monuments proving that God’s threat of destruction is not an empty metaphor. It is a terrifying historical reality.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 17</span></div>
+        <div class="arabic">ثُمَّ نُتْبِعُهُمُ ٱلْـَٔاخِرِينَ</div>
+        <div class="translation">"Then We will follow them with the later ones."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And We will subject the later generations who commit the exact same crimes to the exact same destruction.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">The ego thinks, "Those ancient people were primitive; we are modern and advanced, so we are safe." God's laws of justice do not care about your technology. If you harbor the arrogance of Pharaoh, you will share the fate of Pharaoh.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Divine Justice</span><span class="tag">Accountability</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 18</span></div>
+        <div class="arabic">كَذَٰلِكَ نَفْعَلُ بِٱلْمُجْرِمِينَ</div>
+        <div class="translation">"Thus do We deal with the criminals."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This is exactly how We process and punish those who choose a life of persistent, arrogant crime against God.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Mujrimeen" are not people who make mistakes; they are people who stubbornly institutionalize their sins and declare war on God's laws. The divine protocol for dealing with them is fixed and unchanging.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Punishment</span><span class="tag">Sin</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 19</span></div>
+        <div class="arabic">وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ</div>
+        <div class="translation">"Woe, that Day, to the deniers."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Absolute destruction and misery on that Day to those who called the truth a lie!</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The **Second** refrain. This specific woe is tied to their failure to learn from history (verses 16-18). Woe to the one who walks past the ruins of a destroyed civilization and still thinks he is untouchable.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Punishment</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 20</span></div>
+        <div class="arabic">أَلَمْ نَخْلُقكُّم مِّن مَّآءٍۢ مَّهِينٍۢ</div>
+        <div class="translation">"Did We not create you from a liquid disdained?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God violently shifts the perspective: Did We not create you, the arrogant human, from a fragile, worthless, and despised drop of fluid?</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">God takes the tyrant who thinks he is a god on earth and forces him to look at his own origins. "Ma'in Mahin" is fluid that people wash off their clothes in disgust. How can a creature born of something so lowly raise his head to challenge the Creator of the Heavens?</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Humility</span><span class="tag">Human Nature</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 21</span></div>
+        <div class="arabic">فَجَعَلْنَـٰهُ فِى قَرَارٍۢ مَّكِينٍ</div>
+        <div class="translation">"And We placed it in a firm resting place"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And We secured that fragile drop safely inside the highly protected, sturdy sanctuary of the mother's womb.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Look at the mercy of God. You were a despised drop, completely vulnerable, yet He built a literal fortress of flesh, muscle, and bone around you to protect you while you grew. He protected you when you were nothing; why do you distrust Him now?</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Knowledge & Signs</span><span class="tag">Hope</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 22</span></div>
+        <div class="arabic">إِلَىٰ قَدَرٍۢ مَّعْلُومٍۢ</div>
+        <div class="translation">"For a known extent."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Keeping you securely in that womb for a perfectly calculated, precise, and predestined period of time (nine months).</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Qadar" implies strict measurement. The gestation period is not a biological accident; it is a mathematically precise decree written by God. It proves He is a God of intricate planning, not random chaos.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 23</span></div>
+        <div class="arabic">فَقَدَرْنَا فَنِعْمَ ٱلْقَـٰدِرُونَ</div>
+        <div class="translation">"And We determined [it], and excellent [are We] to determine."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">We measured and orchestrated your entire creation perfectly. What an absolutely Excellent and Flawless Creator We are!</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">If He proved His excellence in organizing the microscopic details of your physical conception in the dark womb, how can you doubt His excellence in organizing the macroscopic details of your life, provision, and ultimate resurrection?</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Knowledge & Signs</span><span class="tag">Humility</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 24</span></div>
+        <div class="arabic">وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ</div>
+        <div class="translation">"Woe, that Day, to the deniers."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Absolute destruction and misery on that Day to those who called the truth a lie!</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The **Third** refrain. This woe is tied to verses 20-23. Woe to the man who carries the physical proof of God’s majestic engineering within his own biology, yet still uses his tongue to deny his Maker.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Punishment</span></div>
+    </div>
+
+</div>
+
+</body>
+</html>
+
+<div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 25</span></div>
+        <div class="arabic">أَلَمْ نَجْعَلِ ٱلْأَرْضَ كِفَاتًا</div>
+        <div class="translation">"Have We not made the earth a container"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God shifts the focus to the earth beneath our feet: Did We not design the earth to be a vast, gathering receptacle?</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Kifat" means something that draws things together and holds them securely inside itself, like a mother holding a child or a container storing precious goods. The earth was engineered specifically to hold humanity.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Attributes of Allah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 26</span></div>
+        <div class="arabic">أَحْيَآءًۭ وَأَمْوَٰتًۭا</div>
+        <div class="translation">"Of the living and the dead?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A container that holds you on its surface while you are alive, and holds you in its belly when you are dead?</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The earth is the ultimate equalizer. The king builds a palace on its back, and the pauper sleeps on its dust. But eventually, the earth opens its mouth and swallows them both, embracing the living and the dead with absolute impartiality.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">The Unseen</span><span class="tag">Humility</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 27</span></div>
+        <div class="arabic">وَجَعَلْنَا فِيهَا رَوَٰسِىَ شَـٰمِخَـٰتٍۢ وَأَسْقَيْنَـٰكُم مَّآءًۭ فُرَاتًۭا</div>
+        <div class="translation">"And We placed therein lofty, firmly set mountains and have given you to drink sweet water."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And We anchored this earth with massive, towering mountains, and from them, We provided you with fresh, sweet, life-giving water to drink.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The physical mountains anchor the earth so it doesn't shake, and catch the clouds so the sweet water can flow. Spiritually, the Prophets and Saints (Awliya) are the "lofty mountains" of humanity. Their presence anchors society from moral collapse, and from their teachings flows the "sweet water" of divine guidance to revive dead hearts.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Attributes of Allah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 28</span></div>
+        <div class="arabic">وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ</div>
+        <div class="translation">"Woe, that Day, to the deniers."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Absolute destruction and misery on that Day to those who called the truth a lie!</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The **Fourth** refrain. This woe is tied to verses 25-27. Woe to the one who walks on God's earth, drinks His sweet water, relies on the stability of His mountains, and then uses that very energy to deny His existence.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Punishment</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 29</span></div>
+        <div class="arabic">ٱنطَلِقُوٓا۟ إِلَىٰ مَا كُنتُم بِهِۦ تُكَذِّبُونَ</div>
+        <div class="translation">"[They will be told], 'Proceed to that which you used to deny.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">On Judgment Day, the angels of punishment will command them: "March forward directly into the Hellfire you used to mock and call a fairy tale!"</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">In the Dunya, they commanded others out of arrogance. In the Akhirah, they are violently commanded by the angels. The mockery of the intellect becomes the physical prison of the body. You will be forced to inhabit the reality you spent your life trying to delete.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Punishment</span><span class="tag">Hell</span><span class="tag">Accountability</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 30</span></div>
+        <div class="arabic">ٱنطَلِقُوٓا۟ إِلَىٰ ظِلٍّۢ ذِى ثَلَـٰثِ شُعَبٍۢ</div>
+        <div class="translation">"Proceed to a shadow [of smoke] having three columns"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Walk into the massive shadow cast by the thick, choking smoke of Hell, rising in three towering columns."</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">In the scorching desert, an Arab's greatest relief was finding "shade" (Zill). God uses the word "shade" sarcastically here. This is not the shade of a cool palm tree; it is the suffocating, pitch-black smoke of the Fire that splits into three massive pillars due to its sheer volume.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Hell</span><span class="tag">Punishment</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 31</span></div>
+        <div class="arabic">لَّا ظَلِيلٍۢ وَلَا يُغْنِى مِنَ ٱللَّهَبِ</div>
+        <div class="translation">"[But having] no cool shade and availing not against the flame."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This dark smoke provides absolutely no relief from the heat, nor does it protect anyone from the roaring flames.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The ego sought "shade" in the Dunya through money, status, and corporate titles, believing these would protect it from the heat of consequence. The smoke of Hell mirrors the illusions of the Dunya: it looks like shade from afar, but offers zero protection when you actually enter it.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Hell</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 32</span></div>
+        <div class="arabic">إِنَّهَا تَرْمِى بِشَرَرٍۢ كَٱلْقَصْرِ</div>
+        <div class="translation">"Indeed, it throws sparks [as huge] as a fortress,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This Fire is so violent that the tiny sparks popping out of it are the size of massive castles and fortresses.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">If a single *spark* shooting out of the flame is the size of a giant building (Qasr), what is the size of the flame itself? It shatters the human mind's capacity to comprehend the scale of Divine punishment.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Hell</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 33</span></div>
+        <div class="arabic">كَأَنَّهُۥ جِمَـٰلَتٌۭ صُفْرٌۭ</div>
+        <div class="translation">"As if they were yellowish [black] camels."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">These massive sparks fly through the air looking like a herd of huge, dark yellow-black camels marching together.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">God uses imagery the Arabs intimately understood. They loved their massive herds of yellowish camels; it was their ultimate wealth. The very wealth they worshipped and hoarded in the Dunya becomes the terrifying imagery of their destruction in the Akhirah.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Hell</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 34</span></div>
+        <div class="arabic">وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ</div>
+        <div class="translation">"Woe, that Day, to the deniers."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Absolute destruction and misery on that Day to those who called the truth a lie!</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The **Fifth** refrain. Woe to those who are commanded into a shadow of smoke that offers no shade, bombarded by sparks the size of castles.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Punishment</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 35</span></div>
+        <div class="arabic">هَـٰذَا يَوْمُ لَا يَنطِقُونَ</div>
+        <div class="translation">"This is a Day they will not speak,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">On this specific stage of Judgment Day, the deniers will be completely mute and unable to utter a single word.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">In the Dunya, their tongues never stopped moving—debating, mocking, lying, and defending their egos. On the Day of Truth, the majestic terror of the King completely paralyzes the tongue. The ego loses its primary weapon of defense: its voice.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Accountability</span><span class="tag">Humility</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 36</span></div>
+        <div class="arabic">وَلَا يُؤْذَنُ لَهُمْ فَيَعْتَذِرُونَ</div>
+        <div class="translation">"Nor will it be permitted for them to make an excuse."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And they will not even be given permission to open their mouths to offer apologies or excuses.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">An excuse is only valid if there is missing information. But God gave them the intellect, the Prophets, the internal conscience (Surah 75), and the clear signs in nature. When the truth is absolute, an excuse is merely a continuation of the lie. Thus, the court shuts down the lies permanently.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Accountability</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 37</span></div>
+        <div class="arabic">وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ</div>
+        <div class="translation">"Woe, that Day, to the deniers."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Absolute destruction and misery on that Day to those who called the truth a lie!</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The **Sixth** refrain. Woe to the one who stands before the Ultimate Judge but is stripped of his ability to speak or defend himself.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Punishment</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 38</span></div>
+        <div class="arabic">هَـٰذَا يَوْمُ ٱلْفَصْلِ ۖ جَمَعْنَـٰكُمْ وَٱلْأَوَّلِينَ</div>
+        <div class="translation">"This is the Day of Judgement; We will have assembled you and the former peoples."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God announces to them: "This is the Day of Separation! We have dragged you, and all the ancient arrogant nations before you, into one single gathering."</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The pagan Quraish often asked, "When will we be judged?" Here, God dramatically places them in the future moment, speaking to them as if they are already standing there alongside Pharaoh and Thamud. The timeline of history collapses into one courtroom.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Accountability</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 39</span></div>
+        <div class="arabic">فَإِن كَانَ لَكُمْ كَيْدٌۭ فَكِيدُونِ</div>
+        <div class="translation">"So if you have a plan, then plan against Me."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A terrifying Divine challenge: "If you have any trick, strategy, or power left to escape this punishment, then use it against Me right now!"</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">In the Dunya, the ego feels brilliant. It engineers loopholes, dodges accountability, and manipulates people. God strips away the illusion of power by demanding they try their tricks in the Akhirah. The absolute silence that follows this challenge is the ultimate humiliation of the ego.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Arrogance</span><span class="tag">Humility</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 40</span></div>
+        <div class="arabic">وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ</div>
+        <div class="translation">"Woe, that Day, to the deniers."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Absolute destruction and misery on that Day to those who called the truth a lie!</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The **Seventh** refrain. Woe to the one who realizes their absolute helplessness when challenged directly by the Creator of the Universe.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Punishment</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 41</span></div>
+        <div class="arabic">إِنَّ ٱلْمُتَّقِينَ فِى ظِلَـٰلٍۢ وَعُيُونٍۢ</div>
+        <div class="translation">"Indeed, the righteous will be among shades and springs"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">In total contrast, the deeply conscious believers will be resting in beautiful, cool shades and sitting by flowing water springs.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The deniers are given the "shade" of burning, choking smoke (v. 30). The righteous (Muttaqin) are given the true, refreshing shade of Paradise. You will be shaded in the Akhirah by the very actions you cultivated in the Dunya.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Jannah</span><span class="tag">Hope</span><span class="tag">Spiritual Practice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 42</span></div>
+        <div class="arabic">وَفَوَٰكِهَ مِمَّا يَشْتَهُونَ</div>
+        <div class="translation">"And fruits from whatever they desire,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And they will have immediate access to any delicious fruit their hearts could possibly crave.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">In the harsh desert, fresh fruit and flowing springs were the ultimate definition of luxury. God promises that the moment a desire crosses their mind, it will manifest before them.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Jannah</span><span class="tag">Hope</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 43</span></div>
+        <div class="arabic">كُلُوا۟ وَٱشْرَبُوا۟ هَنِيٓـًٔۢا بِمَا كُنتُمْ تَعْمَلُونَ</div>
+        <div class="translation">"'Eat and drink in satisfaction for what you used to do.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The angels will joyfully tell them: "Eat and drink with absolute delight! This is your reward for the hard work and faith you maintained in the world."</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">"Hani'a" means to consume something with zero negative consequences—no sickness, no fullness, no guilt. In the Dunya, every pleasure is followed by a consequence (sugar brings lethargy, wealth brings anxiety). Only in Jannah is pleasure absolutely pure.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Jannah</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 44</span></div>
+        <div class="arabic">إِنَّا كَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ</div>
+        <div class="translation">"Indeed, We thus reward the doers of good."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This is exactly how God abundantly honors and pays back those who live a life of spiritual excellence and goodness.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Ihsan" is the highest tier of faith: worshipping God as if you see Him, knowing that He sees you. Because they acted as if they saw God in the Dunya, God grants them the ultimate reward of actually seeing His beauty in the Akhirah.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Spiritual Practice</span><span class="tag">Attributes of Allah</span><span class="tag">Hope</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 45</span></div>
+        <div class="arabic">وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ</div>
+        <div class="translation">"Woe, that Day, to the deniers."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Absolute destruction and misery on that Day to those who called the truth a lie!</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The **Eighth** refrain. Woe to the denier who misses out on this unimaginable eternal luxury because he traded it for a few fleeting years of arrogance.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Punishment</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 46</span></div>
+        <div class="arabic">كُلُوا۟ وَتَمَتَّعُوا۟ قَلِيلًا إِنَّكُم مُّجْرِمُونَ</div>
+        <div class="translation">"Eat and enjoy yourselves a little; indeed, you are criminals."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God issues a terrifyingly sarcastic command to the tyrants: "Go ahead, eat your expensive food and enjoy your short little lives right now. You are criminals, and your time is almost up."</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The most terrifying state for a human being is when God removes His discipline and lets the ego run totally free. "Enjoy yourselves a little" is not a blessing; it is the ultimate abandonment (Istidraj). God is letting them gorge themselves right before the trap shuts.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Human Nature</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 47</span></div>
+        <div class="arabic">وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ</div>
+        <div class="translation">"Woe, that Day, to the deniers."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Absolute destruction and misery on that Day to those who called the truth a lie!</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The **Ninth** refrain. Woe to the criminal whose temporary worldly enjoyment becomes the very evidence used to condemn him eternally.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Punishment</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 48</span></div>
+        <div class="arabic">وَإِذَا قِيلَ لَهُمُ ٱرْكَعُوا۟ لَا يَرْكَعُونَ</div>
+        <div class="translation">"And when it is said to them, 'Bow [in prayer],' they do not bow."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">When they are told in this life to bow down in humility and submit to God, their arrogance prevents them from bending their backs.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Ruku' (bowing) is the physical breaking of the ego. The tyrant refuses to bend his spine for the Creator because his heart is paralyzed by pride. A spine that refuses to bow out of love in the Dunya will be snapped by terror in the Akhirah.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Spiritual Practice</span><span class="tag">Arrogance</span><span class="tag">Humility</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 49</span></div>
+        <div class="arabic">وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ</div>
+        <div class="translation">"Woe, that Day, to the deniers."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Absolute destruction and misery on that Day to those who called the truth a lie!</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The **Tenth** and final refrain. Woe to the one who thought bowing in prayer was a humiliation, completely unaware that refusing to bow guarantees the ultimate humiliation of Hell.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Punishment</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 50</span></div>
+        <div class="arabic">فَبِأَىِّ حَدِيثٍۭ بَعْدَهُۥ يُؤْمِنُونَ</div>
+        <div class="translation">"Then in what statement after the Qur'an will they believe?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">If they refuse to believe in this incredibly clear, overwhelming, and majestic Quran, what message could possibly ever convince them?</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">The Surah ends on a profound note of finality. The Quran is the ultimate intervention. If the "winds sent forth," the destruction of past nations, the miracle of embryology, and the terrifying warnings of Judgment do not wake the heart, the heart is legally dead. There is no other speech coming to save them.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Human Nature</span></div>
+    </div>
+
+</div>
+
+</body>
+</html>
