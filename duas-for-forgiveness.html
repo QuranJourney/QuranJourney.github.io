@@ -1,869 +1,718 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Virtues of The Prayers for Forgiveness | Imam Hasan al-Basri</title>
-    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;600&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --bg-color: #ffffff; --text-color: #2d3748; --primary-accent: #2b6cb0;
-            --border-color: #e2e8f0; --tag-bg: #e6fffa; --tag-text: #2c7a7b;
-        }
-        body { font-family: 'Inter', sans-serif; background: var(--bg-color); color: var(--text-color); margin: 0; padding: 0; line-height: 1.6; }
-        .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
-        .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
-        .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
-        .nav-link:hover { text-decoration: underline; }
-        .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
-        .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
-        header { text-align: center; padding: 3rem 1rem 2rem; background: linear-gradient(180deg, #f7fafc 0%, #ffffff 100%); }
-        h1 { font-family: 'Merriweather', serif; font-size: 2.8rem; margin: 0; color: #1a202c; }
-        .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
-        .intro-text { max-width: 650px; margin: 1.5rem auto 0; font-style: italic; color: #4a5568; }
-        .container { max-width: 900px; margin: 0 auto; padding: 0 1rem 4rem; }
-        .verse-card { background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
-        .verse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid #edf2f7; padding-bottom: 0.8rem; }
-        .verse-number { background: var(--primary-accent); color: white; padding: 0.2rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
-        .arabic { font-family: 'Amiri', serif; font-size: 2.4rem; text-align: right; color: #2d3748; margin-bottom: 1.5rem; line-height: 2.2; }
-        .translation { font-family: 'Merriweather', serif; font-size: 1.2rem; color: #1a202c; margin-bottom: 2rem; border-left: 4px solid var(--primary-accent); padding-left: 1rem; }
-        .tags { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; padding-top: 1rem; border-top: 1px solid #edf2f7; }
-        .tag { background: var(--tag-bg); color: var(--tag-text); padding: 0.2rem 0.7rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtues of The Prayers for Forgiveness | Imam Hasan al-Basri</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;600&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #ffffff; --text-color: #2d3748; --primary-accent: #2b6cb0;
+            --border-color: #e2e8f0; --tag-bg: #e6fffa; --tag-text: #2c7a7b;
+        }
+        body { font-family: 'Inter', sans-serif; background: var(--bg-color); color: var(--text-color); margin: 0; padding: 0; line-height: 1.6; }
+        .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
+        .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
+        .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
+        .nav-link:hover { text-decoration: underline; }
+        .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
+        .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
+        header { text-align: center; padding: 3rem 1rem 2rem; background: linear-gradient(180deg, #f7fafc 0%, #ffffff 100%); }
+        h1 { font-family: 'Merriweather', serif; font-size: 2.8rem; margin: 0; color: #1a202c; }
+        .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
+        .intro-text { max-width: 650px; margin: 1.5rem auto 0; font-style: italic; color: #4a5568; }
+        .container { max-width: 900px; margin: 0 auto; padding: 0 1rem 4rem; }
+        .verse-card { background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
+        .verse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid #edf2f7; padding-bottom: 0.8rem; }
+        .verse-number { background: var(--primary-accent); color: white; padding: 0.2rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
+        .arabic { font-family: 'Amiri', serif; font-size: 2.4rem; text-align: right; direction: rtl; color: #2d3748; margin-bottom: 1.5rem; line-height: 2.2; }
+        .translation { font-family: 'Merriweather', serif; font-size: 1.2rem; color: #1a202c; margin-bottom: 2rem; border-left: 4px solid var(--primary-accent); padding-left: 1rem; }
+        .tags { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; padding-top: 1rem; border-top: 1px solid #edf2f7; }
+        .tag { background: var(--tag-bg); color: var(--tag-text); padding: 0.2rem 0.7rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
+    </style>
 </head>
 <body>
- 
+
 <div class="nav-bar">
-    <div class="nav-controls">
-        <a href="index.html" class="nav-link home-btn">⌂ Dashboard</a>
-    </div>
-    <span style="font-weight: 600; color: #718096; font-size: 0.9rem;">Imam Hasan al-Basri (RA)</span>
+    <div class="nav-controls">
+        <a href="index.html" class="nav-link home-btn">⌂ Dashboard</a>
+    </div>
+    <span style="font-weight: 600; color: #718096; font-size: 0.9rem;">Imam Hasan al-Basri (RA)</span>
 </div>
- 
+
 <header>
-    <h1>Prayers for Forgiveness</h1>
-    <div class="meta">Imam Hasan al-Basri • 70 Prayers</div>
-    <div class="intro-text">
-        This collection of seventy prayers for forgiveness [istighfarat] are attributed to one of the greatest spiritual luminaries of the past, Imam Hasan al-Basri, and it has been presented to offer a way for us to navigate through the complications and pitfalls of this life.
-    </div>
+    <h1>Prayers for Forgiveness</h1>
+    <div class="meta">Imam Hasan al-Basri • 70 Prayers</div>
+    <div class="intro-text">
+        This collection of seventy prayers for forgiveness [istighfarat] are attributed to one of the greatest spiritual luminaries of the past, Imam Hasan al-Basri, and it has been presented to offer a way for us to navigate through the complications and pitfalls of this life.
+    </div>
 </header>
- 
+
 <div class="container">
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 1</span></div>
-        <div class="arabic">
-‎        اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ قَوِيَ عَلَيْهِ بَدَنِي بِعَافِيَتِكَ، وَنَالَتْهُ قُدْرَتِي بِفَضْلِ نِعْمَتِكَ، وَانْبَسَطَتْ إِلَيْهِ يَدِي بِسِعَةِ رِزْقِكَ ، وَاحْتَجَبْتُ عَنِ النَّاسِ بِسِتْرِكَ ، وَا تَكَلْتُ فِيْهِ عِنْدَ خَوْفِي مِنْكَ عَلَى أَمَانِكَ، وَوَثِقْتُ مِنْ سَطُوَتِكَ عَلَيَّ فِيْهِ بِحِلْمِكَ، وَعَوَّلْتُ فِيْهِ عَلَى كَرَمِ وَجْهِكَ وَعَفْوِكَ.<br><br>
-‎           فَصَلِّ يَا رَبِّ وَسَلَّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ وَاغْفِرْهُ لِي يَا خَيْرَ الْغَافِرِينَ.
-        </div>
-        <div class="translation">
-         O Allah, I seek Your forgiveness for every sin that my body, empowered by the good health that You had granted, was able to commit; every sin that came within the reaches of my power only due to the grace of Your bounties; every sin to which my hand, nourished by Your ample sustenance, extended.And while sinning, I hid myself behind Your veil from the people; and when fearing You, while engrossed in my sin, I relied on Your assurance of safety and forgiveness; and I took refuge in You, with Your clemency, not to smite me, and I depended on You, with Your noble countenance and pardon, to forgive me.[<br><br>
-           So send blessings and peace, O my Lord, upon our Master Muhammad, and upon the family of our Master Muhammad, and forgive my sin, O Best of those who forgive!
-        </div>
-        <div class="tags"><span class="tag">Forgiveness</span><span class="tag">Bounties</span><span class="tag">Sustenance</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 2</span></div>
-        <div class="arabic">
-‎           اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يَدْعُو إِلَى غَضَبِكَ ، أَوْ يُدْنِي مِنْ سَخَطِكَ ، أَوْ يَمِيلُ بِي إِلَى مَا نَهَيْتَنِي عَنْهُ، أَوْ يُبَاعِدُنِي عَمَّا دَعَوْتَنِي إِلَيْهِ.
-        </div>
-        <div class="translation">
-          O Allah, I seek Your forgiveness for every sin that invites me to Your anger, or draws me near Your displeasure, or makes me inclined to that which You have prohibited, or distances me from [the bliss and success] to which You have invited me.
-        </div>
-        <div class="tags"><span class="tag">Anger</span><span class="tag">Displeasure</span><span class="tag">Prohibitions</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 3</span></div>
-        <div class="arabic">
-‎            اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ أَسْلَمْتُ إِلَيْهِ أَحَدًا مِنْ خَلْقِكَ بِغَوَايَتِي، أَوْ خَدَعْتُهُ بِحِيْلَتِي فَعَلَّمْتُهُ مِنْهُ مَا جَهِلَ ، وَزَيَّنْتُ لَهُ مَا قَدْ عَلِمَ ، وَلَقِيْتُكَ غَدًا بِأَوْزَارِي وَأَوْزَارِي وَأَوْزَارٍ مَّعَ أَوْزَارِي.
-        </div>
-        <div class="translation">
-           O Allah, I seek Your forgiveness for every sin into which I, in my deviance, lured one of Your creation, or which I, with my cunning, deceived him into doing-hence teaching him such wicked deeds that he was previously unaware of, and making attractive to him those that he was aware of. Now I am to meet You tomorrow, with my burden of sins along with the burdens of others' sins.
-        </div>
-        <div class="tags"><span class="tag">Deception</span><span class="tag">Bad Influence</span><span class="tag">Judgment</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 4</span></div>
-        <div class="arabic">
-‎           اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يَدْعُو إِلَى الْغَيِّ، وَيُضِلُّ عَنِ الرُّشْدِ، وَيُقِلُّ الْوَفْرَ، وَيَمْحَقُ التَّالِدَةَ، وَيُخْمِلُ الذِّكْرَ ، وَيُقِلُّ الْعَدَدَ.
-        </div>
-        <div class="translation">
-          O Allah, I seek Your forgiveness for every sin that calls to deviance; for every sin that leads from the path of guidance; for every sin that diminishes abundant wealth; for every sin that obliterates long-possessed property and inherited family wealth; for every sin that deprives me of honorable repute; and for every sin that drives away my friends and family.
-        </div>
-        <div class="tags"><span class="tag">Deviance</span><span class="tag">Wealth</span><span class="tag">Reputation</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 5</span></div>
-        <div class="arabic">
-‎            )اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ أَنْعَبْتُ فِيهِ جَوَارِ حِي فِي لَيْلِي وَنَهَارِي، وَقَدِ اسْتَتَرْتُ حَيَاءٌ مِنْ عِبَادِكَ بِسِتْرِكَ ، وَلَا سِتْرَ إِلَّا مَا سَتَرْتَنِي بِهِ.
-        </div>
-        <div class="translation">
-           O Allah, I seek Your forgiveness for every sin in which I exhausted my limbs, by day and by night-all the while keeping myself hidden, out of shame from Your servants, with Your covering over me; and indeed, there is nothing to cover my sins but what You cover me with.
-        </div>
-        <div class="tags"><span class="tag">Shame</span><span class="tag">Secrecy</span><span class="tag">Divine Covering</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 6</span></div>
-        <div class="arabic">
-‎            اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ قَصَدَنِي بِهِ أَعْدَائِي لِهَتَكِيْ، فَصَرَفْتَ كَيْدَهُمْ عَنِي، وَلَمْ تُعِنْهُمْ عَلَى فَضِيحَتِي كَأَنِّي لَكَ مُطِيعٌ ، وَنَصَرْتَنِي حَتَّى كَأَنِّي لَكَ وَلِي، وَإِلَى مَتَى يَا رَبِّ أَعْصِيْ فَتُمْهِلُنِي(start_span)وَطَالَمَا عَصَيْتُكَ فَلَمْ تُؤَاخِذْنِي، وَسَأَلْتُكَ عَلَى سُوْءٍ فِعْلِي فَأَعْطَيْتَنِي، فَأَيُّ شُكْرٍ يَقُوْمُ عِنْدَكَ بِنِعْمَةٍ مِنْ نِعَمِكَ عَلَيَّ
-        </div>
-        <div class="translation">
-            O Allah, I seek Your forgiveness for every sin with which my enemies intended to disgrace me, but You turned their plotting away from me and did not assist them in disgracing me, as though I were Your obedient servant; and You sustained me until it seemed as though I were Your friend. Until when, O my Lord, will I disobey You and You continue giving me respite? Long indeed have I disobeyed You and You have not punished me; and long indeed have I, with all my evil deeds, beseeched You and You have granted me my requests. What meager thanks of mine can measure up, in Your sight, to even one of Your many blessings upon me?
-        </div>
-        <div class="tags"><span class="tag">Enemies</span><span class="tag">Respite</span><span class="tag">Ingratitude</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 7</span></div>
-        <div class="arabic">
-‎اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ قَدَّمْتُ إِلَيْكَ تَوْبَتِي مِنْهُ، وَوَاجَهْتُكَ بِقَسَمِيْ بِكَ، وَأَشْهَدتُ عَلَى نَفْسِي بِذَلِكَ أَوْلِيَائِكَ مِنْ عِبَادِكَ أَنِّي غَيْرُ عَائِدٍ إِلَى مَعْصِيَتِكَ، فَلَمَّا قَصَدَنِي إِلَيْهِ بِكَيْدِهِ الشَّيْطَانُ وَمَالَ بِي إِلَيْهِ الْخُذْلانُ، وَدَعَتْنِي نَفْسِي إِلَى الْعِصْيَانِ ، اسْتَتَرْتُ حَيَاءً مِنْ عِبَادِكَ جَرَاءَةً مِنِّي عَلَيْكَ وَأَنَا أَعْلَمُ أَنَّهُ لَا يُكِتُنِي مِنْكَ سِتْرٌ وَلَا بَابٌ ، وَلَا يَحْجُبُ نَظَرَكَ حِجَابٌ، فَخَالَفْتُكَ فِي الْمَعْصِيَةِ إِلَى مَا نَهَيْتَنِي عَنْهُ، ثُمَّ مَا كَشَفْتَ السِّتْرَ ، وَسَاوَيْتَنِي بِأَوْلِيَائِكَ ، كَأَنِّي لَا أَزَالُ لَكَ مُطِيعًا وَإِلَى أَمْرِكَ مُسْرِعًا وَمِنْ وَعِيدِكَ فَازِعًا ، فَلَبِسْتُ عَلَى عِبَادِكَ وَلَا يَعْلَمُ سَرِيرَتِي غَيْرُكَ ، فَلَمْ تَسِمْنِي بِغَيْرِسِمَتِهِمْ ، بَلْ أَسْبَغْتَ عَلَيَّ مِثْلَ نِعْمَتِهِمْ ، ثُمَّ فَضَّلْتَنِي بِذَلِكَ عَلَيْهِمْ كَأَنِّي عِنْدَكَ فِي دَرَجَتِهِمْ ، وَمَا ذَاكَ إِلَّا لِحِلْمِكَ وَفَضْلِ نِعْمَتِكَ فَضْلاً مِنْكَ عَلَيَّ ، فَلَكَ الْحَمْدُ يَا مَوْلايَ، فَأَسْأَلُكُ يَا اللَّهُ كَمَا سَتَوْتَهُ عَلَيَّ فِي الدُّنْيَا أَن لا تَفْضَحَنِي بِهِ يَوْمَ الْقِيَامَةِ ، يَا أَرْحَمَ الرَّحِمِينَ.
-        </div>
-        <div class="translation">
-           O Allah, I seek Your forgiveness for every sin for which I presented my repentance before You; and regarding which I stood before You swearing an oath in Your name and called Your friends from among Your servants to be my witnesses-that I would never return to disobeying You. But when Satan with his cunning tempted me to return to it; and Your forsaking me [due to Your anger over my impiety] caused me to [despairingly] waver toward it; and my lower self-invited me to disobey You once more; I hid myself in shame from Your servants, but openly and daringly committed sins before You, though I knew full well that no covering nor any closed door could conceal me from You and no veil could hide me from Your sight.I still defied You by disobediently doing what You had prohibited to me; but [despite my iniquity], You did not remove Your covering from me, but treated me equal to Your pious servants, as though I had always been an obedient servant and swift to fulfill Your every command and fearful of Your warnings. I remained obscure in front of Your servants, and none besides You knew my secret.You did not single me out from Your servants with a mark of disgrace, but showered upon me blessings like theirs; and with this You distinguished me over them as though I were, in Your sight, of a status like theirs. All this was owing only of Your forbearance and abundant blessings-generous grace from You to me. For You then, O my Lord, belongs all praise. I ask from You, O Allah, just as You have covered my evil deeds in this world, that You not humiliate me with them on the Day of judgment. [Forgive my sins,] O Most Merciful of the merciful!
-        </div>
-        <div class="tags"><span class="tag">Broken Promises</span><span class="tag">Temptation</span><span class="tag">Forbearance</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 8</span></div>
-        <div class="arabic">
-‎            اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ سَهِرَتٌ فِيهِ لَيْلَتِي فِي لَذَّتِي فِي التَّأَنِي لِإِثْيَانِهِ، وَالتَّخَلُّصِ إِلَى وُجُودِهِ وَتَحْصِيلِهِ، حَتَّى إِذَا أَصْبَحْتُ حَضَرْتُ إِلَيْكَ بِحِلْيَةِ الصَّلِحِينَ، وَأَنَا مُضْمِرٌ خِلَافَ رِضَاكَ، يَا رَبَّ الْعَالَمِينَ.
-        </div>
-        <div class="translation">
-            (O Allah, I seek Your forgiveness for every sin for which I spent the night in sleeplessness, savoring the pleasure of soon committing it and waiting in eager anticipation of its realization and fulfillment-until when morning came, I presented myself before You in the guise of the pious, while concealing in my heart what was against Your pleasure. [Forgive me,] O Lord of the Worlds!
-        </div>
-        <div class="tags"><span class="tag">Sleeplessness</span><span class="tag">Hypocrisy</span><span class="tag">Sincerity</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 9</span></div>
-        <div class="arabic">
-‎            اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ ظَلَمْتُ بِسَبَبِهِ وَلِيًّا مِنْ أَوْلِيَائِكَ ، وَنَصَرْتُ بِهِ عَدُوًّا مِنْ أَعْدَائِكَ.أَوْ تَكَلَّمْتُ فِيْهِ لِغَيْرِ مَحَبَّتِكَ، أَوْ نَهَضْتُ فِيْهِ إِلَى غَيْرِ طَاعَتِكَ، أَوْ ذَهَبْتُ فِيهِ إِلَى غَيْرِ أَمْرِكَ.
-        </div>
-        <div class="translation">
-            O Allah, I seek Your forgiveness for every sin by which I wronged one of Your friends and assisted one of Your enemies; or of which I spoke favorably against Your liking, or upon which I rode away from Your obedience; or to which I advanced in open defiance of Your command.
-        </div>
-        <div class="tags"><span class="tag">Injustice</span><span class="tag">Enmity</span><span class="tag">Defiance</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 10</span></div>
-        <div class="arabic">
-‎           اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يُورَثُ الضَّغْنَاءَ، وَيُحِلُّ الْبَلاءَ، وَيُشْمِتُ الْأَعْدَاءَ، وَيَكْشِفُ الْغِطَاءَ، وَيَحْبِسُ الْقَطْرَ مِنَ السَّمَاءِ.
-        </div>
-        <div class="translation">
-        O Allah, I seek Your forgiveness for every sin that breeds rancor, for every sin that causes calamity to strike, for every sin that makes my enemies to rejoice at my misfortune, for every sin that removes the coverings [from my faults and the faults of others], and for every sin that withholds rain from the heavens.
-        </div>
-        <div class="tags"><span class="tag">Rancor</span><span class="tag">Calamity</span><span class="tag">Drought</span></div>
-    </div>
- 
-               <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 11</span></div>
-        <div class="arabic">
-‎           اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ أَلْهَانِي عَمَّا هَدَيْتَنِي إِلَيْهِ ، وَأَمَرْتَنِي بِهِ أَوْ نَهَيْتَنِي عَنْهُ، أَوْ دَلَلْتَنِي عَلَيْهِ مِمَّا فِيْهِ الْحَقُّ لِي، وَالْبُلُوغُ إِلَى رِضَاكَ وَاتَّبَاعُ مَحَبَّتِكَ وَإِيثَارُ الْقُرْبِ مِنْكَ.
-        </div>
-        <div class="translation">
-           O Allah, I seek Your forgiveness for every sin that diverted me from the way to which You had guided me; or from doing what You had commanded me and avoiding what You had forbidden me; or from doing anything to which You had directed me, in which there would have been for me prosperity and attainment of Your pleasure, Your love, and Your nearness.
-        </div>
-        <div class="tags"><span class="tag">Diversion</span><span class="tag">Disobedience</span><span class="tag">Neglect</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 12</span></div>
-        <div class="arabic">
-‎          اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ نَسِيْتُهُ فَأَحْصَيْتَهُ، وَتَهَا وَنْتُ بِهِ فَأَثْبَتَهُ، وَجَاهَرْتُكَ بِهِ فَسَتَرْتَهُ عَلَيَّ، وَلَوْ تُبْتُ إِلَيْكَ مِنْهُ لَغَفَرْتَهُ.
-        </div>
-        <div class="translation">
-            O Allah, I seek Your forgiveness for every sin that I forgot but You recorded; that I made little of but You noted; that I openly committed but You quietly concealed - and if I were to repent to You for it, You would surely forgive it.
-        </div>
-        <div class="tags"><span class="tag">Forgetfulness</span><span class="tag">Negligence</span><span class="tag">Divine Concealment</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 13</span></div>
-        <div class="arabic">
-‎     اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ تَوَقَعْتُ مِنْكَ قَبْلَ انْقِضَائِهِ تَعْجِيْلَ الْعُقُوْبَةِ، فَأَمْهَلْتَنِي وَأَسْبَلْتَ عَلَيَّ سِتْرًا، فَلَمْ آلُ فِي هَتْكِهِ عَنِّي جُهْدًا.        </div>
-        <div class="translation">
-        O Allah, I seek Your forgiveness for every sin for which, even before its completion, I anticipated Your swift punishment, but You granted me respite and draped over me a covering, yet I spared no effort in trying to tear it away from myself.
-        </div>
-        <div class="tags"><span class="tag">Respite</span><span class="tag">Divine Covering</span><span class="tag">Audacity</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 14</span></div>
-        <div class="arabic">
-‎    اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ نَّهَيْتَنِي عَنْهُ فَخَالَفْتُكَ إِلَيْهِ، وَحَذَرْتَنِي إِيَّاهُ فَأَقَمْتُ عَلَيْهِ، وَقَبَّحْتَهُ عَلَيَّ فَزَيَّنَتُهُ لِي نَفْسِي.
-        </div>
-        <div class="translation">
-       O Allah, I seek Your forgiveness for every sin that You prohibited to me but I opposed You by committing; and every sin that You forewarned me of but I remained firm in committing; and every sin that You deemed abominable but my lower self-made attractive to me.
-        </div>
-        <div class="tags"><span class="tag">Prohibition</span><span class="tag">Stubbornness</span><span class="tag">Base Desires</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 15</span></div>
-        <div class="arabic">
-‎           اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يَصْرِفُ عَنِّي رَحْمَتَكَ، أَوْ يُحِلُّ بِي نِقْمَتَكَ ، أَوْ يَحْرِ مُنِي كِرَامَتَكَ، أَوْ يُزِيلُ عَنِّي نِعْمَتَكَ.
-        </div>
-        <div class="translation">
-         O Allah, I seek Your forgiveness for every sin that turns away from me Your mercy or causes Your vengeance to befall me, or deprives me of Your generosity, or takes away from me Your blessings.
-        </div>
-        <div class="tags"><span class="tag">Deprivation</span><span class="tag">Vengeance</span><span class="tag">Loss of Blessings</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 16</span></div>
-        <div class="arabic">
-‎           اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ عَيَّرْتُ بِهِ أَحَدًا مِنْ خَلْقِكَ، أَوْ قَبَّحْتُ مِنْ فِعْلِ أَحَدٍ مِنْ بَرِيَّتِكَ ، ثُمَّ تَقَخَمْتُ عَلَيْهِ وَانْتَهَكْتُهُ جَرَاءَةً مِنِّي عَلَيْكَ.
-        </div>
-        <div class="translation">
-        O Allah, I seek Your forgiveness for every sin that I reproached or condemned one of Your creation for committing, but then myself plunged into and brazenly committed before You.
-        </div>
-        <div class="tags"><span class="tag">Hypocrisy</span><span class="tag">Condemnation</span><span class="tag">Brazenness</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 17</span></div>
-        <div class="arabic">
-‎            (17) [اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ تُبْتُ إِلَيْكَ مِنْهُ وَأَقْدَمْتُ عَلَى فِعْلِهِ، فَاسْتَحْيَيْتُ مِنْكَ وَأَنَا عَلَيْهِ، وَرَهِبْتُكَ وَأَنَا فِيْهِ، ثُمَّ اسْتَقَلْتُكَ مِنْهُ وَعُدتُ إِلَيْهِ.
-        </div>
-        <div class="translation">
-           O Allah, I seek Your forgiveness for every sin for which I repented to You and then embarked on committing again; but then I felt ashamed before You and fearful of You while engrossed in it, so I invoked Your forgiveness for it once more, but [in my weakness] returned to it yet again.[
-        </div>
-        <div class="tags"><span class="tag">Broken Repentance</span><span class="tag">Relapse</span><span class="tag">Weakness</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 18</span></div>
-        <div class="arabic">
-‎        اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ تَوَرَّكَ عَلَيَّ وَوَجَبَ فِي شَيْءٍ فَعَلْتُهُ ، بِسَبَبٍ عَهْدٍ عَهِدتُكَ عَلَيْهِ، أَوْ عَقْدٍ عَقَدتُهُ لَكَ ، أَوْ ذِمَّةٍ آلَيْتُ بِهَا مِنْ أَجْلِكَ لِأَحَدٍ مِّنْ خَلْقِكَ، ثُمَّ نَقَضْتُ ذَلِكَ مِنْ غَيْرِ ضَرُورَةٍ لَّزِمَتْنِي فِيْهِ ، بَلِ اسْتَنْزَلَنِي عَنِ الْوَفَاءِ بِهِ الْبَطْرُ، وَأَسْخَطَنِي عَن رِعَايَتِهِ الْأَشَرُ.
-        </div>
-        <div class="translation">
-            O Allah, I seek Your forgiveness for every sin that overtook me and became unavoidable for me when I took a covenant with You, or made a promise to You, or took an oath by You in regard to a responsibility to one of Your creation, and then I broke it without any excuse; it was in fact my arrogance that made me step down from fulfilling it and my insolence that made me reject observing it.
-        </div>
-        <div class="tags"><span class="tag">Broken Oaths</span><span class="tag">Arrogance</span><span class="tag">Insolence</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 19</span></div>
-        <div class="arabic">
-‎           اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ لَحِقَنِي بِسَبَبٍ نِعْمَةٍ أَنْعَمْتَ بِهَا عَلَيَّ، فَتَقَوَّيْتُ بِهَا عَلَى مَعَاصِيْكَ، وَخَالَفْتُ فِيهَا أَمْرُكَ، وَأَقْدَمْتُ بِهَا عَلَى وَعِيدِكَ.
-        </div>
-        <div class="translation">
-       O Allah, I seek Your forgiveness for every sin that overcame me [when I abused] a bounty You had bestowed upon me, using it to embolden myself in disobeying You, opposing Your command, and insolently advancing toward sin despite Your warnings [of punishment].
-        </div>
-        <div class="tags"><span class="tag">Abuse of Bounties</span><span class="tag">Defiance</span><span class="tag">Ingratitude</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 20</span></div>
-        <div class="arabic">
-‎           اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ قَدَّمْتُ فِيْهِ شَهْوَتِي عَلَى طَاعَتِكَ، وَآثَرْتُ فِيْهِ مَحَبَّتِيْ عَلَى أَمْرِكَ. فَأَرْضَيْتُ نَفْسِي بَغَضَبِكَ ، وَعَرَّضْتُهَا لِسَخَطِكَ ، إِذْ نَهَيْتَنِي وَقَدَّمْتَ إِلَيَّ فِيهِ إِنْذَارَكَ وَتَحَجَّجْتَ عَلَيَّ فِيهِ بِوَعِيدِكَ، وَأَسْتَغْفِرُكَ اللَّهُمَّ وَأَتُوْبُ إِلَيْكَ.
-        </div>
-        <div class="translation">
-            O Allah, I seek Your forgiveness for every sin in which I gave preference to my base desire over Your obedience and my passion over Your command-thus I contented myself with Your wrath and subjected myself to Your displeasure, though You had forbidden me, presented Your admonition to me, and established the proof of it to me through Your warnings [of punishment in Your revelations]. I seek Your forgiveness, O Allah, and repent to You.
-        </div>
-        <div class="tags"><span class="tag">Base Desires</span><span class="tag">Ignored Warnings</span><span class="tag">Repentance</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 21</span></div>
-        <div class="arabic">
-‎          اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ عَلِمْتُهُ مِنْ نَفْسِي فَأَنْسَيْتُهُ أَوْ ذَكَرْتُهُ، أَوْ تَعَمَّدتُهُ أَوْ أَخْطَأْتُ فِيهِ، وَهُوَ مِمَّا لَا أَشْكُ أَنَّكَ مُسَائِلِي عَنْهُ ، وَأَنَّ نَفْسِي بِهِ مُرْتَهِنَةٌ لَدَيْكَ، وَإِنْ كُنْتُ قَدْ نَسِيْتُهُ وَغَفَلَتْ عَنْهُ نَفْسِي.
-        </div>
-        <div class="translation">
-          O Allah, I seek Your forgiveness for every sin that I knew myself to have committed, then forgot about or remembered, or that I had committed intentionally or unintentionally; and I have no doubt that it is a sin about which You will question me and for which my soul is held captive to You, even if I have become forgetful and heedless of it.
-        </div>
-        <div class="tags"><span class="tag">Forgetfulness</span><span class="tag">Accountability</span><span class="tag">Heedlessness</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 22</span></div>
-        <div class="arabic">
-‎          اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ وَاجَهْتُكَ فِيهِ وَقَدْ أَيْقَنْتُ أَنَّكَ تَرَانِي عَلَيْهِ، فَنَوَيْتُ أَنْ أَتُوْبَ إِلَيْكَ مِنْهُ، وَأُنْسِيْتُ أَنْ أَسْتَغْفِرُكَ مِنْهُ، أَنْسَانِيْهِ الشَّيْطَانُ.
-        </div>
-        <div class="translation">
-          O Allah, I seek Your forgiveness for every sin that I committed in front of You knowing full well that You were watching me. I intended to turn to You in repentance for it, but I was made to forget to invoke Your forgiveness-it was Satan that made me forget.
-        </div>
-        <div class="tags"><span class="tag">Omniscience</span><span class="tag">Satanic Whispers</span><span class="tag">Delayed Repentance</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 23</span></div>
-        <div class="arabic">
-‎اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ دَخَلْتُ فِيْهِ بِحُسْنِ ظَنِّي فِيكَ أَنَّكَ لَا تُعَذِّبُنِي عَلَيْهِ، وَرَجَوْتُكَ لِمَغْفِرَتِهِ فَأَقْدَمْتُ عَلَيْهِ ، وَقَدْ عَوَّلْتُ نَفْسِي عَلَى مَعْرِفَتِي بِكَرَمِكَ أَنْ لَا تَفْضَحَنِي بِهِ بَعْدَ إِذْ سَتَرْتَهُ عَلَيَّ.
-        </div>
-        <div class="translation">
-           O Allah, I seek Your forgiveness for every sin upon which I embarked, thinking well of You-that You would forgive me for it and not punish me. I thus audaciously continued in committing it while relying, with my knowledge of Your generosity on You not to disgrace me after having concealed it for me.
-        </div>
-        <div class="tags"><span class="tag">False Hope</span><span class="tag">Audacity</span><span class="tag">Generosity</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 24</span></div>
-        <div class="arabic">
-‎           اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبِ اسْتَوْجَبْتُ بِهِ مِنْكَ رَدَّ الدُّعَاءِ ، وَحِرْمَانَ الْإِجَابَةِ، وَخَيْبَةَ الطَّبْعِ، وَانْقِطَاعَ الرَّجَاءِ.
-        </div>
-        <div class="translation">
-         O Allah, I seek Your forgiveness for every sin by which I deserved rejection of my prayers, and refusal of their acceptance, and failure in my hopes being fulfilled, and severance of hope in Your mercy.
-        </div>
-        <div class="tags"><span class="tag">Rejected Prayers</span><span class="tag">Hopelessness</span><span class="tag">Failure</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 25</span></div>
-        <div class="arabic">
-‎           اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يُوْرِثُ الْأَسْقَامَ والضَّنَى ، وَيُوْجِبُ النِّقَمَ وَالْبَلاءَ، وَيَكُونُ يَوْمَ الْقِيَامَةِ حَسْرَةً وَنَدَامَةً.
-        </div>
-        <div class="translation">
-            O Allah, I seek Your forgiveness for every sin that brings about illnesses and emaciating diseases, and warrants punishments and misery and will be a cause of grief and remorse on judgment Day.
-        </div>
-        <div class="tags"><span class="tag">Illness</span><span class="tag">Misery</span><span class="tag">Remorse</span></div>
-    </div>
- 
- 
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 26</span></div>
-        <div class="arabic">
-‎       اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يُعَقِّبُ الْحَسْرَةَ, وَيُوْرِثُ النَّدَامَةَ، وَيَحْبِسُ الرِّزْقَ، وَيَرُدُّ الدُّعَاءَ.
-        </div>
-        <div class="translation">
-            (O Allah, I seek Your forgiveness for every sin that leaves grief on its heel, that causes remorse, that holds back sustenance, and that prevents acceptance of [my] prayers.
-        </div>
-        <div class="tags"><span class="tag">Grief</span><span class="tag">Blocked Sustenance</span><span class="tag">Unanswered Prayers</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 27</span></div>
-        <div class="arabic">
-‎          اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ مَدَحْتُهُ بِلِسَانِي، أَوْ أَضْمَرْتُهُ بِجَنَانِي، أَوْ هَشَتْ إِلَيْهِ نَفْسِي، أَوْ أَثْبَتُهُ بِلِسَانِي، أَوْ أَتَيْتُهُ بِفِعَانِي ، أَوْ كَتَبْتُهُ بِيَدِي ، أَوِ ارْتَكَبْتُهُ أَوْ أَرْكَبْتُ فِيْهِ عِبَادَكَ.
-        </div>
-        <div class="translation">
-          O Allah, I seek Your forgiveness for every sin that I praised with my tongue, or that I resolved upon in my heart, or that my soul took pleasure in, or that my tongue endorsed, or that I effected with my actions, or that I wrote with my hand, or that I committed in any way or caused one of Your servants to commit.
-        </div>
-        <div class="tags"><span class="tag">Speech</span><span class="tag">Actions</span><span class="tag">Intentions</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 28</span></div>
-        <div class="arabic">
-‎           اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ خَلَوْتُ بِهِ فِي لَيْلِي وَنَهَارِي، وَأَرْخَيْتَ فِيْهِ عَلَيَّ السَّتَارَ حَيْثُ لا يَرَانِي فِيْهِ إِلَّا أَنْتَ يَا جَبَّارُ ، فَارْتَابَتْ نَفْسِي فِيْهِ، وَتَحَيَّرْتُ بَيْنَ تَرْكِي لَهُ بِخَوْفِكَ وَانْتِهَا كِيْ لَهُ بِحُسْنِ الظَّنِّ فِيْكَ، فَسَوَّلَتْ لِي نَفْسِي الْإِقْدَامَ عَلَيْهِ ، وَأَنَا عَارِفٌ بِمَعْصِيَتِي فِيْهِ لَكَ
-        </div>
-        <div class="translation">
-          O Allah, I seek Your forgiveness for every sin that I committed in solitude during my night and my day yet You lowered over me a covering so that none besides You-O All Compelling One-could see me engaged in it. My soul thus fell into confusion, and I wavered between abandoning it out of fear of You and committing it out of good hopes in Your mercy; but my lower self-adorned it for me such that I boldly committed it, though being aware that, in doing so, I was disobeying You.
-        </div>
-        <div class="tags"><span class="tag">Solitude</span><span class="tag">Confusion</span><span class="tag">Boldness</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 29</span></div>
-        <div class="arabic">
-‎         اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبِ اسْتَقْلَلْتُهُ فَاسْتَعْظَمْتُهُ، وَاسْتَصْغَرْتُهُ فَاسْتَكْبَرْتَهُ، وَوَرَّطَنِي فِيهِ جَهْلِي بِهِ.
-        </div>
-        <div class="translation">
-          O Allah, I seek Your forgiveness for every sin that I took to be petty but You took to be grave, that I deemed to be small but You deemed to be great, and in which my own ignorance embroiled me.
-        </div>
-        <div class="tags"><span class="tag">Ignorance</span><span class="tag">Trivializing Sins</span><span class="tag">Gravity</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 30</span></div>
-        <div class="arabic">
-‎           اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ أَضْلَلْتُ بِهِ أَحَدًا مِّنْ خَلْقِكَ، أَوْ أَسَأْتُ بِهِ إِلَى أَحَدٍ مِنْ بَرِيَّتِكَ أَوْ زَيَّنَتْهُ فِي نَفْسِي، أَوْ أَشَرْتُ بِهِ إِلَى غَيْرِي، أَوْ دَلَلْتُ عَلَيْهِ سِوَايَ، وَأَصْرَرْتُ عَلَيْهِ بِعَبْدِي، أَوْ أَقَمْتُ عَلَيْهِ بِجَهْلِي.
-        </div>
-        <div class="translation">
-           O Allah, I seek Your forgiveness for every sin by which I misguided one of Your creation, or through which I mistreated one of them, or which my lower self-made seemingly attractive to me, or which I pointed out to another person, or to which I steered someone besides myself or in which I intentionally persisted, or to which I remained stubbornly attached out of my foolishness.
-        </div>
-        <div class="tags"><span class="tag">Misguidance</span><span class="tag">Mistreatment</span><span class="tag">Stubbornness</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 31</span></div>
-        <div class="arabic">
-‎           اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ خُنْتُ بِهِ أَمَانَتِي، أَوْ أَحْسَنَتْ لِي نَفْسِي فِعْلَهُ، أَوْ أَخْطَأْتُ بِهِ عَلَى بَدَنِي، أَوْ قَدَّمْتُ فِيهِ عَلَيْكَ شَهْوَتِي، أَوْ كَثَرْتُ فِيْهِ لَذَّتِي، أَوْ سَعَيْتُ فِيهِ لِغَيْرِيِّ، أَوْ اسْتَغْوَيْتُ إِلَيْهِ مَنْ تَابَعَنِي  أَوْ كَابَرْتُ فِيْهِ مَن مَّا نَعَنِي، أَوْ قَهَرْتُ عَلَيْهِ مَنْ غَلَبَنِي ، أَوْ غَلَبْتُ عَلَيْهِ بِحِيْلَتِي، أَوْ اسْتَزَلَّنِي إِلَيْهِ مَيْلِي.
-        </div>
-        <div class="translation">
-           O Allah, I seek Your forgiveness for every sin by which I betrayed my trust [of obedience], or whose perpetration my lower self-commended to me, or by which I violated the rights of my own body, or in doing which I gave precedence to my base desires over obedience to You, or from which I gained excessive delight, or which I strove to do for the sake of another, or to which I lured my followers, or on which I remained stubborn against one who tried to prevent me, or in committing which I overcame one who tried to obstruct me or subdued him through my cunning, or into which my evil tendencies caused me to slip.
-        </div>
-        <div class="tags"><span class="tag">Betrayal</span><span class="tag">Base Desires</span><span class="tag">Cunning</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 32</span></div>
-        <div class="arabic">
-‎            (32) اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبِ اسْتَعَنْتُ عَلَيْهِ بِحِيْلَةٍ تُدْنِي مِنْ غَضَبِكَ، أَوْ اسْتَظْهَرْتُ بِنَيْلِهِ عَلَى أَهْلِ طَاعَتِكَ ، أَوْ اسْتَلَمْتُ بِهِ أَحَدًا مِنْ خَلْقِكَ إِلَى مَعْصِيَتِكَ أَوْ رُمْتُهُ، وَرَأَيْتُ بِهِ عِبَادَكَ أَوْ لَبِسْتُ عَلَيْهِ طَاعَتِكَ. بِفِعَانِي، كَأَنِّي بِحِيْلَتِي أُرِيدُكَ، وَالْمُرَادُ بِهِ مَعْصِيَتُكَ، وَالْهَوَى مُنْصَرِفْ عَنْ
-        </div>
-        <div class="translation">
-           O Allah, I seek Your forgiveness for every sin for which I employed such cunning that invokes Your wrath, or in committing which I overcame those in Your obedience, or by which I lured-or intended to lure-one of Your creation into disobeying You. And though I made it seem to Your servants that through my endeavors I seek You [and Your pleasure], my true aim was to disobey You, and as such my desire was turned away from Your obedience.
-        </div>
-        <div class="tags"><span class="tag">Deceit</span><span class="tag">False Piety</span><span class="tag">Wrath</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 33</span></div>
-        <div class="arabic">
-‎          )اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ كَتَبْتَهُ عَلَيَّ بِسَبَبٍ عُجْبٍ كَانَ مِنِّي بِنَفْسِي، أَوْ رِيَاءٍ أَوْ سُمْعَةٍ أَوْ حِقْدٍ أَوْ شَحْنَاءٍ أَوْ خِيَانَةٍ أَوْ خُيَلاءَ أَوْ فَرَحٍ أَوْ مَرَحٍ أَوْ عَنَدٍ أَوْ حَسَدٍ أَوْ أَشَرٍ أَوْ بَطَرٍ أَوْ حَمِيَّةٍ أَوْ عَصَبِيَّةٍ أَوْ رِضَاءٍ أَوْ رَجَاءٍ أَوْ شُحٍ أَوْ سَخَاءٍ أَوْ ظُلْمٍ أَوْ حِيْلَةٍ أَوْ سَرِقَةٍ أَوْ كَذِبٍ أَوْ غِيْبَةٍ أَوْ لَهُمْ أَوْ لَغْرٍ أَوْ نَمِيمَةٍ أَوْ لَعْبٍ ، أَوْ نَوْعٍ مِنَ الْأَنْوَاعِ مِمَّا يُكْتَسَبُ بِمِثْلِهِ الذُّنُوبُ، وَيَكُونُ فِي اتَّبَاعِهِ الْعَطَبُ وَالْحُوْبُ.
-        </div>
-        <div class="translation">
-O Allah, I seek Your forgiveness for every sin that You recorded against me because of my conceit, or ostentation, or desire to be heard, or malice, or rancor, or treachery, or pride, or exultancy, or intemperate mirth, or obstinacy or envy or insolence, or ungratefulness, or fervor for other than Your sake, or bigotry, or acquiescence to sin, or blind hope, or extreme avarice, or generous spending for sin, or oppression, or unwarranted cunning, or theft, or lying, or backbiting, or idle amusement, or fruitless talk, or calumny, or useless play, or any such activity that by doing sins are reaped and in pursuing is destruction and grief.
-        </div>
-        <div class="tags"><span class="tag">Conceit</span><span class="tag">Malice</span><span class="tag">Vices</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 34</span></div>
-        <div class="arabic">
-‎           اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ رَّهِبْتُ فِيهِ سِوَاكَ، وَعَادَيْتُ فِيهِ أَوْلِيَاتَكَ، وَوَالَيْتُ فِيْهِ أَعْدَاءَكَ. وَخَذَلْتُ فِيهِ أَحِبَّانَكَ، وَتَعَرَّضْتُ لِشَيْءٍ مِّنْ غَضَبِكَ.
-        </div>
-        <div class="translation">
-         O Allah, I seek Your forgiveness for every sin in doing which I feared someone besides You, and opposed Your friends, and befriended Your enemies, and forsook those beloved to You, and placed myself in the path of Your anger.
-        </div>
-        <div class="tags"><span class="tag">Fear Of Creation</span><span class="tag">Enmity</span><span class="tag">Anger</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 35</span></div>
-        <div class="arabic">
-‎         اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ سَبَقَ فِي عِلْمِكَ أَنِّي فَاعِلُهُ بِقُدْرَتِكَ الَّتِي قَدَرْتَ بِهَا عَلَيَّ وَعَلَى كُلِّ شَيْءٍ .
-        </div>
-        <div class="translation">
-        O Allah, I seek Your forgiveness, through the power You possess over me and over everything, for every sin that I was destined, in Your eternal knowledge, to commit.
-        </div>
-        <div class="tags"><span class="tag">Destiny</span><span class="tag">Divine Knowledge</span><span class="tag">Power</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 36</span></div>
-        <div class="arabic">
-‎           اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ تُبْتُ إِلَيْكَ مِنْهُ ثُمَّ عُدتُ فِيهِ، وَنَقَضْتُ فِيهِ الْعَهْدَ فِيمَا بَيْنِي وَبَيْنَكَ جَرَاءَةً مِنِّي عَلَيْكَ لِمَعْرِفَتِي بِعَفْوِكَ.
-        </div>
-        <div class="translation">
-        O Allah, I seek Your forgiveness for every sin for which I repented to You, but which I then returned to, breaking the covenant between me and You, out of my insolence and my knowledge of Your abundant forgiveness.
-        </div>
-        <div class="tags"><span class="tag">Broken Covenants</span><span class="tag">Insolence</span><span class="tag">Presumption</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 37</span></div>
-        <div class="arabic">
-‎           اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ مِنْ كُلِّ ذَنْبٍ أَدْنَانِي مِنْ عَذَا بِكَ ، أَوْ أَنْآنِي مِنْ ثَوَابِكَ، أَوْ حَجَبَ عَنِّي رَحْمَتَكَ ، أَوْ كَذَّرَ عَلَيَّ نِعْمَتَكَ .
-        </div>
-        <div class="translation">
-         O Allah, I seek Your forgiveness for every sin that has drawn me near to Your punishment, or has distanced me from Your reward, or has hidden from me Your mercy, or has sullied for me Your blessings.
-        </div>
-        <div class="tags"><span class="tag">Punishment</span><span class="tag">Distance</span><span class="tag">Sullied Blessings</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 38</span></div>
-        <div class="arabic">
-‎           اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ حَلَلْتُ بِهِ عَقْدًا شَدَدتَهُ، أَوْ شَدَدتُ بِهِ عَقْدًا حَلَلْتَهُ بِخَيْرٍ وَعَدتَهُ ، فَلَحِقَنِي شُحَّ فِي نَفْسِي حُرِمْتُ بِهِ خَيْرًا أَسْتَحِقُهُ أَوْ حَرَمْتُ بِهِ نَفْسًا تَسْتَحِقُهُ.
-        </div>
-        <div class="translation">
-         O Allah, I seek Your forgiveness for every sin by which I-while acquiring some good You had promised - permitted what You had forbidden or forbade what You had permitted. For extreme greed had entered into my heart, and because of it I was deprived of some good that I could have deserved, or by it I deprived another soul of some good that it deserved.
-        </div>
-        <div class="tags"><span class="tag">Greed</span><span class="tag">Forbidding The Lawful</span><span class="tag">Deprivation</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 39</span></div>
-        <div class="arabic">
-‎        اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ ارْتَكَبْتُهُ بِشُمُوْلِ عَافِيَتِكَ، أَوْ تَمَكَّنْتُ مِنْهُ بِفَضْلِ نِعْمَتِكَ، أَوْ تَقَوَّيْتُ بِهِ عَلَى دَفْعِ نِقْمَتِكَ عَنِّي ، أَوْ مَدَدتُ إِلَيْهِ يَدِي بِسَابِعْ رِزْقِكَ، أَوْ خَيْرٍ أَرَدتُ بِهِ وَجْهَكَ الْكَرِيمَ ، فَخَالَطَنِي فِيْهِ شُحُ نَفْسِي بِمَا لَيْسَ فِيْهِ رِضَاكَ.
-        </div>
-        <div class="translation">
-         O Allah, I seek Your forgiveness for every sin that I committed with the good health You granted me, or gained the ability to do because of Your endless blessings, or became more bold in doing due to Your keeping away Your vengeance from me, or toward which I extended my hands by means of Your plentiful sustenance; or any sin that I committed, initially doing some good action seeking therewith Your noble Countenance, but into which my soul's covetousness mixed what invoked Your displeasure.
-        </div>
-        <div class="tags"><span class="tag">Good Health</span><span class="tag">Covetousness</span><span class="tag">Mixed Intentions</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 40</span></div>
-        <div class="arabic">
-‎      اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ دَعَانِي إِلَيْهِ الرُّخَصُ أَوِ الْحِرْصُ، فَرَغِبْتُ فِيْهِ وَحَلَلْتُ لِنَفْسِي مَا هُوَ مُحَرَّمٌ عِنْدَكَ.
-        </div>
-        <div class="translation">
-        O Allah, I seek Your forgiveness for every sin to which my search for excuses and my craving [for the world] invited me, and thus I sought to commit it and so made lawful for myself what You had decreed unlawful.
-        </div>
-        <div class="tags"><span class="tag">Excuses</span><span class="tag">Worldly Craving</span><span class="tag">Making Lawful</span></div>
-    </div>
- 
-  
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 41</span></div>
-        <div class="arabic">
-‎            اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ خَفِيَ عَلَى خَلْقِكَ وَلَمْ يَعْزُبُ عَنْكَ، فَاسْتَقَلْتُكَ مِنْهُ فَأَقَلْتَنِي ثُمَّ عُدتُ فِيهِ فَسَتَرْتَهُ عَلَيَّ.
-        </div>
-        <div class="translation">
-          O Allah, I seek Your forgiveness for every sin that remained hidden from Your creation but did not escape You for which I repented to You and You forgave me. But I then returned to it, yet You still kept it concealed for me.
-        </div>
-        <div class="tags"><span class="tag">Hidden Sins</span><span class="tag">Relapse</span><span class="tag">Divine Concealment</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 42</span></div>
-        <div class="arabic">
-‎      اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ خَطَوْتُ إِلَيْهِ بِرِجْلِي ، أَوْ مَدَدتُ إِلَيْهِ يَدِي ، أَوْ تَأَمَّلْتُهُ بِبَصَرِي أَوْ أَصْغَيْتُ إِلَيْهِ بِأُذُنِي، أَوْ نَطَقْتُ بِهِ لِسَانِي، أَوْ أَتْلَفْتُ فِيهِ مَا رَزَقْتَنِي ثُمَّ اسْتَرْزَقْتُكَ عَلَى عِصْيَانِي فَرَزَقْتَنِي، ثُمَّ اسْتَعَنْتُ بِرِزْقِكَ عَلَى عِصْيَانِكَ فَسَتَرْتَ عَلَيَّ، ثُمَّ سَأَلْتُكَ الزِّيَادَةَ فَلَمْ تَحْرِمْنِي ثُمَّ جَاهَرْتُكَ بَعْدَ الزِّيَادَةِ فَلَمْ تَفْضَحْنِي، فَلَا أَرَالُ مُصِرًّا عَلَى مَعْصِيَتِكَ وَلَا تَزَالُ عَائِدًا عَلَيَّ بِحِلْمِكَ وَكَرَمِكَ ، يَا أَكْرَمَ الْأَكْرَمِينَ.
-        </div>
-        <div class="translation">
-       O Allah, I seek Your forgiveness for every sin toward which I walked with my legs, or toward which I extended my hands, or which I closely observed with my eyes, or which I carefully listened to with my ears, or which I uttered with my tongue, or in which I squandered of the sustenance You had provided me. Then, despite my disobedience, I asked You for more sustenance, and You provided it to me. Then again, I used Your sustenance in disobeying You, but You kept Your covering over me. Yet again I asked You for more, and You still did not deprive me. Then after Your increase, I openly transgressed against You, but You did not humiliate me. I have thus constantly persisted in disobeying You, and You have constantly remained clement and benevolent with me-O Most Benevolent of the benevolent!
-        </div>
-        <div class="tags"><span class="tag">Squandered Sustenance</span><span class="tag">Sins Of The Limbs</span><span class="tag">Benevolence</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 43</span></div>
-        <div class="arabic">
-‎           اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يُوجِبُ صَغِيْرُهُ أَلِيْمَ عَذَا بِكَ، وَيُحِلُّ كَبِيرُهُ شَدِيدَ عِقَابِكَ ، وَفِي إِثْيَانِهِ تَعْجِيلُ نِقْمَتِكَ، وَفِي الْإِصْرَارِ عَلَيْهِ زَوَالُ نِعْمَتِكَ.
-        </div>
-        <div class="translation">
-           O Allah, I seek Your forgiveness for every sin, the minor of which warrants Your painful punishment, the major of which causes Your severe punishment to descend, and the committing of which hastens Your vengeance, and the persisting in which brings an end to Your bounty.
-        </div>
-        <div class="tags"><span class="tag">Minor Sins</span><span class="tag">Major Sins</span><span class="tag">Punishment</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 44</span></div>
-        <div class="arabic">
-‎          اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ لَّمْ يَطَّلِع عَلَيْهِ أَحَدٌ سِوَاكَ، وَلَمْ يَعْلَمُ بِهِ أَحَدٌ غَيْرُكَ، مِمَّا يُنْجِينِي مِنْهُ إِلَّا عَفُوكَ، وَلَا يَسَعَهُ إِلَّا مَغْفِرَتُكَ وَحِلْمُكَ.
-        </div>
-        <div class="translation">
-   O Allah, I seek Your forgiveness for every sin that nobody knew of but You, and that nobody was aware of but You-it is among those grave sins from which nothing but Your pardon can save me, and which nothing but Your forgiveness and forbearance can encompass.
-        </div>
-        <div class="tags"><span class="tag">Grave Sins</span><span class="tag">Omniscience</span><span class="tag">Pardon</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 45</span></div>
-        <div class="arabic">
-‎          اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يُزِيلُ النِّعَمَ ، وَيُحِلُّ النِّقَمَ، وَيَهْتِمُكَ الْحَرَمَ ، وَيُطِيلُ السَّقَمَ، وَيُعَجِلُ الْأَلَمَ ، وَيُوْرِثُ النَّدَمَ .
-        </div>
-        <div class="translation">
-           O Allah, I seek Your forgiveness for every sin that removes blessings, and causes punishments to descend, and violates the sacred, and prolongs illness, and hastens anguish, and leaves behind it remorse.
-        </div>
-        <div class="tags"><span class="tag">Loss Of Blessings</span><span class="tag">Illness</span><span class="tag">Remorse</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 46</span></div>
-        <div class="arabic">
-‎             اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يَمْحَقُ الْحَسَنَاتِ، وَيُضَاعِفُ السَّيِّئَاتِ، وَيُحِلُّ النَّقَمَاتِ. وَيُغْبِضُكَ ، يَا رَبَّ السَّمَاوَاتِ.
-        </div>
-        <div class="translation">
-      O Allah, I seek Your forgiveness for every sin that obliterates good deeds, and multiplies evil deeds, and causes punishments to descend, and angers You, O Lord of the Heavens!
-        </div>
-        <div class="tags"><span class="tag">Obliterated Deeds</span><span class="tag">Multiplied Evil</span><span class="tag">Divine Anger</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 47</span></div>
-        <div class="arabic">
-‎           اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ أَنْتَ أَحَقُّ بِمَغْفِرَتِهِ إِذْ كُنْتَ أَوْلَى بِسِتْرِهِ، فَإِنَّكَ أَهْلُ التَّقْوَى وَأَهْلُ الْمَغْفِرَةِ.
-        </div>
-        <div class="translation">
- O Allah, I seek Your forgiveness for every sin that You are most worthy to forgive, for You were the One most noble in keeping it concealed. Indeed, You are all-worthy of reverent fear and all-worthy of granting forgiveness.
-        </div>
-        <div class="tags"><span class="tag">Worthy Of Fear</span><span class="tag">Granting Forgiveness</span><span class="tag">Divine Concealment</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 48</span></div>
-        <div class="arabic">
-‎      اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ ظَلَمْتُ بِسَبَبِهِ وَلِيًّا مِنْ أَوْلِيَائِكَ، مُسَاعَدَةٌ لِأَعْدَائِكَ، وَمَيْلاً أَهْلِ مَعْصِيَتِكَ عَلَى أَهْلِ طَاعَتِكَ.
-        </div>
-        <div class="translation">
-           O Allah, I seek Your forgiveness for every sin by which I wronged one of Your friends while assisting Your enemies and siding with those in Your disobedience against those in Your obedience.
-        </div>
-        <div class="tags"><span class="tag">Injustice</span><span class="tag">Siding With Enemies</span><span class="tag">Wronging Friends</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 49</span></div>
-        <div class="arabic">
-‎          اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ أَلْبَسَنِي كَثْرَةُ انْهِمَا كِيْ فِيْهِ ذِلَّةً ، وَآيَسَنِي مِن وُجُودِ رَحْمَتِكَ ، أَوْ قَصُرَ بِي الْيَأْسُ عَنِ الرُّجُوعِ إِلَى طَاعَتِكَ ، لِمَعْرِفَتِي بِعَظِيمِ جُرْمِي وَسُوْءٍ ظَنِّي بِنَفْسِي.
-        </div>
-        <div class="translation">
-         O Allah, I seek Your forgiveness for every sin in which my deep engrossment cloaked me with humiliation and made me despair of the existence of Your mercy; or it was despair that prevented me from returning to obeying You, as I realized the severity of my crime and mired hopelessly in my low opinion of myself.
-        </div>
-        <div class="tags"><span class="tag">Humiliation</span><span class="tag">Despair</span><span class="tag">Low Opinion</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 50</span></div>
-        <div class="arabic">
-‎           اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ أَوْرَثَنِي الْهَلَكَةَ لَوْلاَ حِلْمُكَ وَرَحْمَتُكَ، وَأَدْخَلَنِي دَارَ الْبَوَارِ لَوْلاً نِعْمَتُكَ ، وَسَلَكَ بِي سَبِيلَ الْغَيِّ لَوْلَا إِرْشَادُكَ
-        </div>
-        <div class="translation">
-            O Allah, I seek Your forgiveness for every sin that would have brought my destruction had it not been for Your forbearance and mercy; and would have entered me into the Abode of Perdition [Hell] had it not been for Your favor; and would have taken me down the path of deviance had it not been for Your guidance.
-        </div>
-        <div class="tags"><span class="tag">Destruction</span><span class="tag">Hellfire</span><span class="tag">Divine Guidance</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 51</span></div>
-        <div class="arabic">
-‎           اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يَكُونُ فِي اجْتِرَاحِهِ قَطْعُ الرِّجَاءِ ، وَرَدُّ الدُّعَاءِ، وَتَوَاتُرُ الْبَلاءِ، وَتَرَادُفُ الْهُمُومِ ، وَتَضَاعُفُ الْغُمُومِ
-        </div>
-        <div class="translation">
-           O Allah, I seek Your forgiveness for every sin whose perpetration brings loss of hope, and rejection of prayer, and consecutive calamities, and successive anxieties, and multiplied sorrows.
-        </div>
-        <div class="tags"><span class="tag">Loss Of Hope</span><span class="tag">Calamities</span><span class="tag">Anxieties</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 52</span></div>
-        <div class="arabic">
-‎           اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يَرُدُّ عَنْكَ دُعَائِي، وَيُطِيلُ فِي سَخَطِكَ عَنَائِي، أَوْ يُقْصِرُ عَنْكَ أَمَلِي.
-        </div>
-        <div class="translation">
-          O Allah, I seek Your forgiveness for every sin that turns my prayer away from You, and prolongs my suffering of Your displeasure, and shortens my hope in You.
-        </div>
-        <div class="tags"><span class="tag">Turned Prayers</span><span class="tag">Displeasure</span><span class="tag">Shortened Hope</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 53</span></div>
-        <div class="arabic">
-‎       اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يُمِيتُ الْقَلْبَ، وَيُشْعِلُ الْكَرْبَ، وَيُشْغِلُ الْفِكْرَ، وَيُرْضِي الشَّيْطَانَ، وَيُسْخِطُ الرَّحْمن.
-        </div>
-        <div class="translation">
-           O Allah, I seek Your forgiveness for every sin that kills the heart, and incites anxiety and preoccupies the mind, and pleases Satan, and angers the All-Merciful.
-        </div>
-        <div class="tags"><span class="tag">Spiritual Death</span><span class="tag">Pleasing Satan</span><span class="tag">Angering The Merciful</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 54</span></div>
-        <div class="arabic">
-‎           اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يُعَقِّبُ الْيَأْسَ مِن رَّحْمَتِكَ، وَالْقُنُوْطَ مِن مَغْفِرَتِكَ، وَالْحِرْمَانَ مِنْ سِعَةِ مَا عِنْدَكَ.
-        </div>
-        <div class="translation">
-            O Allah, I seek Your forgiveness for every sin that leaves on its heel despair of Your mercy and despondency of Your forgiveness, and deprivation of Your vast treasures.
-        </div>
-        <div class="tags"><span class="tag">Despair</span><span class="tag">Despondency</span><span class="tag">Deprivation</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 55</span></div>
-        <div class="arabic">
-‎         اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ أَمْقَتُ عَلَيْهِ نَفْسِي إِجْلالَا لَكَ ، وَأَظْهَرْتُ لَكَ التَّوْبَةَ فَقَبِلْتَ وَسَأَلْتُكَ الْعَفْوَ فَعَفَوْنَ، ثُمَّ أَعَادَنِي الْهَوَى إِلَى مُعَاوَدَنِي طَعَمَّا فِي سِعَةِ رَحْمَتِكَ وَكَرَمِ عَفْوِكَ، نَاسِيًا لِوَعِيدِكَ رَاجِيَّا لِجَمِيلِ وَعْدِكَ .
-        </div> 
-        <div class="translation">
-            O Allah, I seek Your forgiveness for every sin for which I despised myself out of reverence for You. I expressed my repentance to You and You accepted it. I invoked Your pardon and You granted it. Then my base desires returned me to my old habits, as I only longed for Your abundant mercy and generous forgiveness, and forgot Your threats [of punishment], and entertained hopes of Your gracious promises [of reward].
-        </div>
-        <div class="tags"><span class="tag">Reverence</span><span class="tag">Accepted Repentance</span><span class="tag">Old Habits</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 56</span></div>
-        <div class="arabic">
-‎           اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يُوْرِثُ سَوَادَ الْوَجْهِ يَوْمَ تَبْيَضُ وُجُوْهُ أَوْلِيَائِكَ وَتَسْوَدُّ وُجُوهُ أَعْدَائِكَ ، إِذَا أَقْبَلَ بَعْضُهُمْ عَلَى بَعْضٍ يَتَلَاوَمُوْنَ، فَتَقُوْلُ : لا تَخْتَصِمُوا لَدَيَّ وَقَدْ قَدَّمْتُ إِلَيْكُمْ بِالْوَعِيدِ.
-        </div>
-        <div class="translation">
-          O Allah, I seek Your forgiveness for every sin that will blacken my face on the day when the faces of Your friends will be whitened and the faces of Your enemies will be blackened - when Your enemies will turn, one against another, in reproach, and You will say, "Dispute not with each other in My presence, for I have already sent to you advanced warning" [Quran 50:28].
-        </div>
-        <div class="tags"><span class="tag">Blackened Face</span><span class="tag">Judgment Day</span><span class="tag">Disputing</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 57</span></div>
-        <div class="arabic">
-‎         اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ فَهِمْتُهُ، وَصَمَتْ عَنْهُ حَيَاءً مِنْكَ عِنْدَ ذِكْرِهِ، أَوْ كَتَمْتُهُ فِي صَدْرِي وَعَلِمْتَهُ مِنِّي، فَإِنَّكَ تَعْلَمُ السِّرَّ وَأَخْفَى
-        </div>
-        <div class="translation">
-            O Allah, I seek Your forgiveness for every sin that I understood to be a sin and, out of shame before You, remained silent when remembering it; and every sin that I concealed in my heart but You knew of in me, for You know what is secret and what is still more hidden.
-        </div>
-        <div class="tags"><span class="tag">Shame</span><span class="tag">Silence</span><span class="tag">Secret Sins</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 58</span></div>
-        <div class="arabic">
-‎       اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يُبْغِضُنِي إِلَى عِبَادِكَ، وَيُنَفِّرْ عَنِّي أَوْلِيَاتَكَ، أَوْ يُوْحِشْنِي مِنْ أَهْلِ طَاعَتِكَ، بِوَحْشَةِ الْمَعَاصِي وَرُكُوْبِ الْحُوْبِ، وَارْتِكَابِ الذُّنُوْبِ.
-        </div>
-        <div class="translation">
-            O Allah, I seek Your forgiveness for every sin that makes me detestable to Your servants, and repels from me Your friends; or that estranges me to those in Your obedience, due to the disquietude of my disobedience, my mounting grief and my perpetration of sins.
-        </div>
-        <div class="tags"><span class="tag">Detestable</span><span class="tag">Estrangement</span><span class="tag">Disquietude</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 59</span></div>
-        <div class="arabic">
-‎          اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يَدْعُو إِلَى الْكُفْرِ ، وَيُطِيلُ الْفِكْرَ ، وَيُوْرِثُ الْفَقْرَ، وَيَجْلِبُ الْعُسْرَ، وَيَصُلُّ عَنِ الْخَيْرِ، وَيَهْتِكُ السِّتْرَ، وَيَمْنَعُ الْيُسْرَ.
-        </div>
-        <div class="translation">
-       O Allah, I seek Your forgiveness for every sin that calls to unbelief and prolongs indecisiveness in thought, and leads to poverty and brings on hardship, and prevents prosperity and rends the covering from over my sins, and prevents ease.
-        </div>
-        <div class="tags"><span class="tag">Unbelief</span><span class="tag">Poverty</span><span class="tag">Hardship</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 60</span></div>
-        <div class="arabic">
-‎           اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يُدْنِي الْآجَالَ، وَيَقْطَعُ الْأَمَالَ، وَيَشِينُ الْأَعْمَالَ.
-        </div>
-        <div class="translation">
-          O Allah, I seek Your forgiveness for every sin that draws nearer [to people] their appointed times of death, and severs hopes [in Your mercy], and spoils good deeds.
-        </div>
-        <div class="tags"><span class="tag">Death</span><span class="tag">Severed Hopes</span><span class="tag">Spoiled Deeds</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 61</span></div>
-        <div class="arabic">
-‎         اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يُدَبِّسُ مَا طَهَّرْتَهُ، وَيَكْشِفُ عَنِّي مَا سَتَرْتَهُ، أَوْ يُقَبِّحُ مِنِّي مَا زَيَّنتَهُ
-        </div>
-        <div class="translation">
-          O Allah, I seek Your forgiveness for every sin that pollutes what You have made pure, and exposes of me what You have covered [of my wrongdoings], or makes repulsive what You have beautified in me.
-        </div>
-        <div class="tags"><span class="tag">Pollution</span><span class="tag">Exposure</span><span class="tag">Repulsiveness</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 62</span></div>
-        <div class="arabic">
-‎        اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ لا يُنَالُ بِهِ عَهْدُكَ ، وَلَا يُؤْمَنُ مَعَهُ غَضَبُكَ ، وَلَا تَنْزِلُ بِهِ رَحْمَتُكَ ، وَلَا تَدُومُ مَعِي نِعْمَتُكَ .
-        </div>
-        <div class="translation">
-          O Allah, I seek Your forgiveness for every sin because of which Your promise cannot be obtained, and in the presence of which safety from Your wrath cannot be felt, Your mercy cannot descend, and Your permanent favors cannot be attained.
-        </div>
-        <div class="tags"><span class="tag">Broken Promises</span><span class="tag">Wrath</span><span class="tag">Blocked Mercy</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 63</span></div>
-        <div class="arabic">
-‎           اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبِنِ اسْتَخْفَيْتُ بِهِي فِي ضَوْءِ النَّهَارِ عَنْ عِبَادِكَ، وَبَارَزْتُكَ بِهِي فِي ظُلْمَةِ اللَّيْلِ جَرَاءَةً مِنِّي عَلَيْكَ ، عَلَى أَنِّي أَعْلَمُ أَنَّ السِّرَّ عِنْدَكَ عَلَانِيَةٌ، وَأَنَّ الْخَفِيَّةَ عِنْدَكَ بَارِزَةٌ وَأَنَّهُو لَا يَمْنَعُنِي مِنْكَ مَانِعٌ ، وَلَا يَنْفَعُنِي عِنْدَكَ نَافِعٌ مِنْ مَالٍ وَبَنِينَ ، إِلَّا أَنْ أَتَيْتُكَ بِقَلْبٍ سَلِيمٍ .
-        </div>
-        <div class="translation">
-            O Allah, I seek Your forgiveness for every sin in doing which I concealed myself from Your servants in the light of day but openly and daringly opposed You by committing in the darkness of night. This I did while knowing that secrets are open to You, and that the hidden is exposed to You, and that nothing can protect me from Your punishment, nor can anything-neither my wealth nor my children-avail me before You, except that I come to You with a sound heart.
-        </div>
-        <div class="tags"><span class="tag">Day And Night</span><span class="tag">Exposed Secrets</span><span class="tag">Sound Heart</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 64</span></div>
-        <div class="arabic">
-‎          اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يُوْرِثُ النِّسْيَانَ لِذِكْرِكَ، أَوْ يُعَقِّبُ الْغَفْلَةَ عَنْ تَحْذِيْرِكَ. وَيَتَمَادَى بِي إِلَى الْأَمْنِ مِن مَّكْرِكَ ، أَوْ يُؤَيِّسُنِي مِنْ خَيْرِ مَا عِنْدَكَ.
-        </div>
-        <div class="translation">
-           O Allah, I seek Your forgiveness for every sin that causes forgetfulness of Your remembrance; or that brings on its heel heedlessness of Your warning and drives me to senselessly feel safe from Your devising; or that causes me to despair of the good reward You possess.
-        </div>
-        <div class="tags"><span class="tag">Forgetfulness</span><span class="tag">Heedlessness</span><span class="tag">False Security</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 65</span></div>
-        <div class="arabic">
-‎            اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ لَحِقَنِي بِسَبَبٍ عَتْبِي عَلَيْكَ فِي إِحْبَاسِ الرِّزْقِ عَلَيَّ، وَشِكَايَتِي مِنْكَ، وَإِعْرَاضِي عَنْكَ ، وَمَيْلِي إِلَى عِبَادِكَ بِالْاِسْتِكَانَةِ لَهُمْ وَالتَّضَرُّعِ إِلَيْهِمْ ، وَقَدْ أَسْمَعْتَنِي قَوْلَكَ فِي مُحْكَمِ كِتَابِكَ : فَمَا اسْتَكَانُوا لِرَبِّهِمْ وَمَا يَتَضَرَّعُونَ.
-        </div>
-        <div class="translation">
-          O Allah, I seek Your forgiveness for every sin that overtook me because I disrespectfully complained and objected to You for withholding Your subsistence from me, and because I turned away from You and inclined instead toward Your [powerless] servants in submissiveness and earnest petition; whereas You had let me hear Your clear statement in Your Book, "But they humbled not themselves to their Lord, nor did they submissively entreat [Him]" [Quran 23:76].
-        </div>
-        <div class="tags"><span class="tag">Complaining</span><span class="tag">Relying On Creation</span><span class="tag">Withheld Sustenance</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 66</span></div>
-        <div class="arabic">
-‎          اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ لَزِمَنِي بِسَبَبٍ كُرْبَةِ نِ اسْتَغَثْتُ عِنْدَهَا بِغَيْرِكَ، وَاسْتَعَنْتُ عَلَيْهَا بِسِوَاكَ، وَاسْتَمْدَدتُّ بِأَحَدٍ فِيْهَا دُونَكَ
-        </div>
-        <div class="translation">
-        O Allah, I seek Your forgiveness for every sin that remained with me because, when anxiety struck, I sought aid, succor, and support from someone besides You.
-        </div>
-        <div class="tags"><span class="tag">Anxiety</span><span class="tag">Seeking Aid Elsewhere</span><span class="tag">Shirk</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 67</span></div>
-        <div class="arabic">
-‎      اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ حَمَلَنِي عَلَيْهِ الْخَوْفُ مِنْ غَيْرِكَ، وَدَعَانِي إِلَى التَّضَرُّعِ لِأَحَدٍ مِنْ خَلْقِكَ ، أَوِ اسْتَمَالَنِي إِلَى الطَّبْعِ فِيمَا عِنْدَ غَيْرِكَ ، فَأَثَرْتُ طَاعَتَهُو فِي مَعْصِيَتِكَ اسْتِجُلا بِأَ لِمَا فِي يَدَيْهِ وَأَنَا أَعْلَمُ بِحَاجَتِي إِلَيْكَ كَمَا لَا غِنَى لِي عَنْكَ .
-        </div>
-        <div class="translation">
-            O Allah, I seek Your forgiveness for every sin to which fear of someone besides You drove me, and it [the fear] called me to earnestly entreat one of Your creation or inclined me to yearn for what others besides You possessed-so I preferred to obey them and disobey You in order to lay hand on what they had, though I was aware that I am in need of You and that I am never free and independent of Your support.
-        </div>
-        <div class="tags"><span class="tag">Fear Of Creation</span><span class="tag">Disobedience For Gain</span><span class="tag">Dependency</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 68</span></div>
-        <div class="arabic">
-‎          اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ مَّثَلَتْ لِي نَفْسِي اسْتِقْلَالَهُ، وَصَوَّرَتْ لِي اسْتِصْغَارَهُ، وَقَلَلَتْهُ حَتَّى وَرَّطَتُنِي فِيهِ.
-        </div>
-        <div class="translation">
-         O Allah, I seek Your forgiveness for every sin that my soul made seem to me trivial and small, and continued to make seem insignificant, until it finally entangled me in it.
-        </div>
-        <div class="tags"><span class="tag">Trivializing Sins</span><span class="tag">Entanglement</span><span class="tag">Deception</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 69</span></div>
-        <div class="arabic">
-‎            اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ جَرَى بِهِي قَلَمُكَ، وَأَحَاطَ بِهِي عِلْمُكَ فِي وَعَلَيَّ إِلَى آخِرِ عُمْرِي. وَلِجَمِيعِ ذُنُوبِي كُلِّهَا، أَوَّلِهَا وَآخِرِهَا، عَمْدِهَا وَخَطَئِهَا، قَلِيْلِهَا وَكَثِيْرِهَا، صَغِيْرِهَا وَكَبِيْرِهَا، دَقِيقِهَا وَجَلِيلِهَا، قَدِيْمِهَا وَحَدِيْثِهَا ، سِرِهَا وَجَهْرِهَا وَعَلَانِيَتِهَا ، وَلِمَا أَنَا مُذْنِبٌ فِي جَمِيعِ عُمْرِي
-        </div>
-        <div class="translation">
-           O Allah, I seek Your forgiveness for every sin that Your pen recorded and Your knowledge encompassed-every one that I have committed and that I am to commit until the end of my life. I seek Your forgiveness for all my sins: the first and the last, the intentional and the unintentional, the few and the many; the minor and the major, the subtle and the noticeable, the past and the recent, the secret and the open and public-and all those I am to commit throughout my life.
-        </div>
-        <div class="tags"><span class="tag">All Sins</span><span class="tag">Divine Pen</span><span class="tag">Lifelong Forgiveness</span></div>
-    </div>
- 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Prayer 70</span></div>
-        <div class="arabic">
-‎            اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ لِي، وَأَسْأَلُكَ أَنْ تَغْفِرَ لِي مَا أَحْصَيْتَ عَلَيَّ مِن مَّظَالِمِ الْعِبَادِ قِبَلِي، فَإِنَّ لِعِبَادِكَ عَلَيَّ حُقُوْقًا وَمَظَالِمَ وَأَنَا بِهَا مُرْتَهِنَّ اللَّهُمَّ وَإِنْ كَانَتْ كَثِيرَةً فَإِنَّهَا فِي جَنْبِ عَفْوِكَ يَسِيرَةُ اللَّهُمَّ أَيُّمَا عَبْدٍ مِنْ عِبَادِكَ أَوْ أَمَةٍ مِّنْ إِمَائِكَ كَانَتْ لَهُ مَظْلِمَةٌ عِنْدِي، قَدْ غَصَبْتُهُو عَلَيْهَا فِي أَرْضِهِي أَوْ مَالِهِي أَوْ عِرْضِهِي أَوْ بَدَنِهِي ، أَوْ غَابَ أَوْ حَضَرَ هُوَ أَوْ خَصْمُهُو يُطَالِبُنِي بِهَا، وَلَمْ أَسْتَطِعْ أَنْ أَرْدَّهَا إِلَيْهِ وَلَمْ أَسْتَحْلِلْهَا مِنْهُ ، فَأَسْأَلُكَ بِكَرَمِكَ وَجُودِكَ وَسِعَةِ مَا عِنْدَكَ ، أَنْ تُرْضِيَهُمْ عَنِّي ، وَلَا تَجْعَل لَّهُمْ عَلَيَّ شَيْئًا مُّنَقِصَةً مِنْ حَسَنَاتِي، فَإِنَّ عِنْدَكَ مَا يُرْضِيْهِمْ عَنِّي وَلَيْسَ عِنْدِي مَا يُرْضِيْهِمْ ، وَلَا تَجْعَلْ يَوْمَ الْقِيَامَةِ لِسَيِّئَاتِهِمْ عَلَى حَسَنَاتِي سَبِيلاً.
-        </div>
-        <div class="translation">
-           O Allah, I seek Your forgiveness for every sin of mine, I ask You to forgive me all the injustices against Your servants that You have enumerated against me; for Your servants have against me many claims of violated rights and injustices to which I am held captive. O Allah, even if these evil deeds of mine are many in number, they are a paltry few in sight of Your forgiveness. O Allah, any male or female servant of Yours who has against me a claim of injustice, that I forcibly seized from him something of his land or wealth or honour or body-whether he was absent or present, or whether he or his representatives demanded from me compensation for it but neither was I able to return it to him nor did I seek to be pardoned for it-I ask that You, with Your benevolence, generosity and abundant treasures, satisfy them on my behalf; and do not give them over me power to take away and decrease my good deeds. For indeed, You possess what can satisfy them on my behalf and I do not. And do not make a way for their bad deeds to overcome my good deeds on the Day of judgment.
-        </div>
-        <div class="tags"><span class="tag">Injustices To Others</span><span class="tag">Usurped Rights</span><span class="tag">Day Of Judgment</span></div>
-    </div>
- 
-    <div class="verse-card" style="background: #f8fafc; border-color: var(--primary-accent);">
-        <div class="verse-header"><span class="verse-number" style="background: #2b6cb0;">Concluding Prayers</span></div>
-       
-        <div class="arabic" style="font-size: 2rem;">
-‎         أَسْتَغْفِرُ اللهَ الَّذِي لَا إِلَهَ إِلَّا هُوَ الْحَيُّ الْقَيُّوْمُ وَأَتُوْبُ إِلَيْهِ، اسْتِغْفَارًا يَزِيدُ فِي كُلِّ طَرْفَةِ عَيْنٍ وَ تَحْرِيكَةِ نَفْسٍ مِائَةَ أَلْفِ أَلْفِ ضِعْفٍ ، يَدُوْمُ مَعَ دَوَامِ اللهِ وَيَبْقَى مَعَ بَقَاءِ اللَّهِ الَّذِي لَا فَنَاءَ وَلَا زَوَالَ وَانْتِقَالَ لِمُلْكِهِي ، أَبَدَ الْآبِدِينَ وَدَهْرَ النَّاهِرِينَ، سَرْمَدًا فِي سَرْمَدِنِ ، اسْتَجِبْ بِاللَّهِ.
-        </div>
-        <div class="translation" style="border-left: none; padding-left: 0;">
-          I seek forgiveness from Allah-besides Whom there is nothing worthy of worship-the Living, the Self-Subsisting Sustainer of all creation, And I turn to Him seeking forgiveness that increases one hundred million times with every blink of the eye and with every breath, that remains as long as Allah remains and lasts as long as Allah lasts; for His Dominion will never-for all of eternity-come to an end, cease, or die away. O Allah, accept this prayer.
-        </div>
-       
-        <hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 2rem 0;">
- 
-        <div class="arabic" style="font-size: 2rem;">
-‎          اللَّهُمَّ اجْعَلْ دُعَاءً وَافَقَ إِجَابَةً، وَمَسْأَلَةً وَافَقَتْ مِنْكَ عَطِيَّةً إِنَّكَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ .
-        </div>
-        <div class="translation" style="border-left: none; padding-left: 0;">
-           O Allah, make mine a prayer that meets with Your acceptance and a request that meets with Your blessing. Indeed You have power over all things.
-        </div>
- 
-        <hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 2rem 0;">
- 
-        <div class="arabic" style="font-size: 2rem;">
-‎           اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ وَصَحْبِهِي وَسَلَّمْ تَسْلِيمًا كَثِيرًا، صَلَاةً دَائِمَةًم بِدَوَامِكَ بَاقِيَةً بِبَقَائِكَ ، لا مُنْتَهَى لَهَا دُونَ عِلْمِكَ ، صَلاةً تُرْضِيْكَ وَتُرْضِيْهِ وَتُرْضَى بِهَا عَنَّا ، يَا رَبَّ الْعَالَمِينَ، وَسَلِّمْ كَذَلِكَ ، وَالْحَمْدُ لِلَّهِ عَلَى ذَلِكَ)
-        </div>
-        <div class="translation" style="border-left: none; padding-left: 0;">
-         O Allah, send blessings on our Master Muhammad, and upon the family of our Master Muhammad, and upon his Companions; and grant them abundant peace. Grant them abundant blessings and peace that remain as long as You remain and last as long as You last, that have bounds only You can know-blessings that please You and him, and by which You are pleased with us, O Lord of the worlds! And for this, all praise is due to Allah.
-        </div>
- 
-        <hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 2rem 0;">
- 
-        <div class="arabic" style="font-size: 2rem;">
-‎        سُبْحَانَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُونَ ، وَسَلَامٌ عَلَى الْمُرْسَلِينَ ، وَالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ.
-        </div>
-        <div class="translation" style="border-left: none; padding-left: 0; margin-bottom: 0;">
-           Glory to your Lord, the Lord of All-Eminence, [who is far above] what they claim. And peace be upon all the MessengersAnd all Praise is due to Allah, the Lord and Cherisher of the Worlds.
-        </div>
-    </div>
- 
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 1</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ قَوِيَ عَلَيْهِ بَدَنِي بِعَافِيَتِكَ، وَنَالَتْهُ قُدْرَتِي بِفَضْلِ نِعْمَتِكَ، وَانْبَسَطَتْ إِلَيْهِ يَدِي بِسِعَةِ رِزْقِكَ، وَاحْتَجَبْتُ عَنِ النَّاسِ بِسِتْرِكَ، وَاتَّكَلْتُ فِيهِ عِنْدَ خَوْفِي مِنْكَ عَلَى أَمَانِكَ، وَوَثِقْتُ مِنْ سَطْوَتِكَ عَلَيَّ فِيهِ بِحِلْمِكَ، وَعَوَّلْتُ فِيهِ عَلَى كَرَمِ وَجْهِكَ وَعَفْوِكَ.<br><br>
+        فَصَلِّ يَا رَبِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ وَاغْفِرْهُ لِي يَا خَيْرَ الْغَافِرِينَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that my body, empowered by the good health that You had granted, was able to commit; every sin that came within the reaches of my power only due to the grace of Your bounties; every sin to which my hand, nourished by Your ample sustenance, extended. And while sinning, I hid myself behind Your veil from the people; and when fearing You, while engrossed in my sin, I relied on Your assurance of safety and forgiveness; and I took refuge in You, with Your clemency, not to smite me, and I depended on You, with Your noble countenance and pardon, to forgive me.<br><br>
+            So send blessings and peace, O my Lord, upon our Master Muhammad, and upon the family of our Master Muhammad, and forgive my sin, O Best of those who forgive!
+        </div>
+        <div class="tags"><span class="tag">Forgiveness</span><span class="tag">Bounties</span><span class="tag">Sustenance</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 2</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يَدْعُو إِلَى غَضَبِكَ، أَوْ يُدْنِي مِنْ سَخَطِكَ، أَوْ يُمِيلُ بِي إِلَى مَا نَهَيْتَنِي عَنْهُ، أَوْ يُبَاعِدُنِي عَمَّا دَعَوْتَنِي إِلَيْهِ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that invites me to Your anger, or draws me near Your displeasure, or makes me inclined to that which You have prohibited, or distances me from the bliss and success to which You have invited me.
+        </div>
+        <div class="tags"><span class="tag">Anger</span><span class="tag">Displeasure</span><span class="tag">Prohibitions</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 3</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ أَسْلَمْتُ إِلَيْهِ أَحَدًا مِنْ خَلْقِكَ بِغَوَايَتِي، أَوْ خَدَعْتُهُ بِحِيلَتِي فَعَلَّمْتُهُ مِنْهُ مَا جَهِلَ، وَزَيَّنْتُ لَهُ مَا قَدْ عَلِمَ، وَلَقِيتُكَ غَدًا بِأَوْزَارِي وَأَوْزَارٍ مَعَ أَوْزَارِي.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin into which I, in my deviance, lured one of Your creation, or which I, with my cunning, deceived him into doing — hence teaching him such wicked deeds that he was previously unaware of, and making attractive to him those that he was aware of. Now I am to meet You tomorrow, with my burden of sins along with the burdens of others' sins.
+        </div>
+        <div class="tags"><span class="tag">Deception</span><span class="tag">Bad Influence</span><span class="tag">Judgment</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 4</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يَدْعُو إِلَى الْغَيِّ، وَيُضِلُّ عَنِ الرُّشْدِ، وَيُقِلُّ الْوَفْرَ، وَيَمْحَقُ التَّالِدَةَ، وَيُخْمِلُ الذِّكْرَ، وَيُقِلُّ الْعَدَدَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that calls to deviance; for every sin that leads from the path of guidance; for every sin that diminishes abundant wealth; for every sin that obliterates long-possessed property and inherited family wealth; for every sin that deprives me of honorable repute; and for every sin that drives away my friends and family.
+        </div>
+        <div class="tags"><span class="tag">Deviance</span><span class="tag">Wealth</span><span class="tag">Reputation</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 5</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ أَنْعَبْتُ فِيهِ جَوَارِحِي فِي لَيْلِي وَنَهَارِي، وَقَدِ اسْتَتَرْتُ حَيَاءً مِنْ عِبَادِكَ بِسِتْرِكَ، وَلَا سِتْرَ إِلَّا مَا سَتَرْتَنِي بِهِ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin in which I exhausted my limbs, by day and by night — all the while keeping myself hidden, out of shame from Your servants, with Your covering over me; and indeed, there is nothing to cover my sins but what You cover me with.
+        </div>
+        <div class="tags"><span class="tag">Shame</span><span class="tag">Secrecy</span><span class="tag">Divine Covering</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 6</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ قَصَدَنِي بِهِ أَعْدَائِي لِهَتْكِي، فَصَرَفْتَ كَيْدَهُمْ عَنِّي، وَلَمْ تُعِنْهُمْ عَلَى فَضِيحَتِي كَأَنِّي لَكَ مُطِيعٌ، وَنَصَرْتَنِي حَتَّى كَأَنِّي لَكَ وَلِيٌّ، وَإِلَى مَتَى يَا رَبِّ أَعْصِي فَتُمْهِلُنِي، وَطَالَمَا عَصَيْتُكَ فَلَمْ تُؤَاخِذْنِي، وَسَأَلْتُكَ عَلَى سُوءِ فِعْلِي فَأَعْطَيْتَنِي، فَأَيُّ شُكْرٍ يَقُومُ عِنْدَكَ بِنِعْمَةٍ مِنْ نِعَمِكَ عَلَيَّ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin with which my enemies intended to disgrace me, but You turned their plotting away from me and did not assist them in disgracing me, as though I were Your obedient servant; and You sustained me until it seemed as though I were Your friend. Until when, O my Lord, will I disobey You and You continue giving me respite? Long indeed have I disobeyed You and You have not punished me; and long indeed have I, with all my evil deeds, beseeched You and You have granted me my requests. What meager thanks of mine can measure up, in Your sight, to even one of Your many blessings upon me?
+        </div>
+        <div class="tags"><span class="tag">Enemies</span><span class="tag">Respite</span><span class="tag">Ingratitude</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 7</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ قَدَّمْتُ إِلَيْكَ تَوْبَتِي مِنْهُ، وَوَاجَهْتُكَ بِقَسَمِي بِكَ، وَأَشْهَدْتُ عَلَى نَفْسِي بِذَلِكَ أَوْلِيَاءَكَ مِنْ عِبَادِكَ أَنِّي غَيْرُ عَائِدٍ إِلَى مَعْصِيَتِكَ، فَلَمَّا قَصَدَنِي إِلَيْهِ بِكَيْدِهِ الشَّيْطَانُ وَمَالَ بِي إِلَيْهِ الْخُذْلَانُ، وَدَعَتْنِي نَفْسِي إِلَى الْعِصْيَانِ، اسْتَتَرْتُ حَيَاءً مِنْ عِبَادِكَ جَرَاءَةً مِنِّي عَلَيْكَ وَأَنَا أَعْلَمُ أَنَّهُ لَا يُكِنُّنِي مِنْكَ سِتْرٌ وَلَا بَابٌ، وَلَا يَحْجُبُ نَظَرَكَ حِجَابٌ، فَخَالَفْتُكَ فِي الْمَعْصِيَةِ إِلَى مَا نَهَيْتَنِي عَنْهُ، ثُمَّ مَا كَشَفْتَ السِّتْرَ، وَسَاوَيْتَنِي بِأَوْلِيَائِكَ، كَأَنِّي لَا أَزَالُ لَكَ مُطِيعًا وَإِلَى أَمْرِكَ مُسْرِعًا وَمِنْ وَعِيدِكَ فَازِعًا، فَلَبِسْتُ عَلَى عِبَادِكَ وَلَا يَعْلَمُ سَرِيرَتِي غَيْرُكَ، فَلَمْ تَسِمْنِي بِغَيْرِ سِمَتِهِمْ، بَلْ أَسْبَغْتَ عَلَيَّ مِثْلَ نِعْمَتِهِمْ، ثُمَّ فَضَّلْتَنِي بِذَلِكَ عَلَيْهِمْ كَأَنِّي عِنْدَكَ فِي دَرَجَتِهِمْ، وَمَا ذَاكَ إِلَّا لِحِلْمِكَ وَفَضْلِ نِعْمَتِكَ فَضْلًا مِنْكَ عَلَيَّ، فَلَكَ الْحَمْدُ يَا مَوْلَايَ، فَأَسْأَلُكَ يَا اللَّهُ كَمَا سَتَرْتَهُ عَلَيَّ فِي الدُّنْيَا أَنْ لَا تَفْضَحَنِي بِهِ يَوْمَ الْقِيَامَةِ، يَا أَرْحَمَ الرَّاحِمِينَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin for which I presented my repentance before You; and regarding which I stood before You swearing an oath in Your name and called Your friends from among Your servants to be my witnesses — that I would never return to disobeying You. But when Satan with his cunning tempted me to return to it; and Your forsaking me caused me to despairingly waver toward it; and my lower self invited me to disobey You once more; I hid myself in shame from Your servants, but openly and daringly committed sins before You, though I knew full well that no covering nor any closed door could conceal me from You and no veil could hide me from Your sight. I still defied You by disobediently doing what You had prohibited to me; but despite my iniquity, You did not remove Your covering from me, but treated me equal to Your pious servants, as though I had always been an obedient servant and swift to fulfill Your every command and fearful of Your warnings. I remained obscure in front of Your servants, and none besides You knew my secret. You did not single me out from Your servants with a mark of disgrace, but showered upon me blessings like theirs; and with this You distinguished me over them as though I were, in Your sight, of a status like theirs. All this was owing only to Your forbearance and abundant blessings — generous grace from You to me. For You then, O my Lord, belongs all praise. I ask from You, O Allah, just as You have covered my evil deeds in this world, that You not humiliate me with them on the Day of Judgment. O Most Merciful of the merciful!
+        </div>
+        <div class="tags"><span class="tag">Broken Promises</span><span class="tag">Temptation</span><span class="tag">Forbearance</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 8</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ سَهِرْتُ فِيهِ لَيْلَتِي فِي لَذَّتِي فِي التَّأَنِّي لِإِتْيَانِهِ، وَالتَّخَلُّصِ إِلَى وُجُودِهِ وَتَحْصِيلِهِ، حَتَّى إِذَا أَصْبَحْتُ حَضَرْتُ إِلَيْكَ بِحِلْيَةِ الصَّالِحِينَ، وَأَنَا مُضْمِرٌ خِلَافَ رِضَاكَ، يَا رَبَّ الْعَالَمِينَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin for which I spent the night in sleeplessness, savoring the pleasure of soon committing it and waiting in eager anticipation of its realization and fulfillment — until when morning came, I presented myself before You in the guise of the pious, while concealing in my heart what was against Your pleasure. O Lord of the Worlds!
+        </div>
+        <div class="tags"><span class="tag">Sleeplessness</span><span class="tag">Hypocrisy</span><span class="tag">Sincerity</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 9</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ ظَلَمْتُ بِسَبَبِهِ وَلِيًّا مِنْ أَوْلِيَائِكَ، وَنَصَرْتُ بِهِ عَدُوًّا مِنْ أَعْدَائِكَ، أَوْ تَكَلَّمْتُ فِيهِ لِغَيْرِ مَحَبَّتِكَ، أَوْ نَهَضْتُ فِيهِ إِلَى غَيْرِ طَاعَتِكَ، أَوْ ذَهَبْتُ فِيهِ إِلَى غَيْرِ أَمْرِكَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin by which I wronged one of Your friends and assisted one of Your enemies; or of which I spoke favorably against Your liking, or upon which I rode away from Your obedience; or to which I advanced in open defiance of Your command.
+        </div>
+        <div class="tags"><span class="tag">Injustice</span><span class="tag">Enmity</span><span class="tag">Defiance</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 10</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يُورِثُ الضَّغْنَاءَ، وَيُحِلُّ الْبَلَاءَ، وَيُشْمِتُ الْأَعْدَاءَ، وَيَكْشِفُ الْغِطَاءَ، وَيَحْبِسُ الْقَطْرَ مِنَ السَّمَاءِ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that breeds rancor, for every sin that causes calamity to strike, for every sin that makes my enemies rejoice at my misfortune, for every sin that removes the coverings from my faults and the faults of others, and for every sin that withholds rain from the heavens.
+        </div>
+        <div class="tags"><span class="tag">Rancor</span><span class="tag">Calamity</span><span class="tag">Drought</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 11</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ أَلْهَانِي عَمَّا هَدَيْتَنِي إِلَيْهِ، وَأَمَرْتَنِي بِهِ أَوْ نَهَيْتَنِي عَنْهُ، أَوْ دَلَلْتَنِي عَلَيْهِ مِمَّا فِيهِ الْحَقُّ لِي، وَالْبُلُوغُ إِلَى رِضَاكَ وَاتِّبَاعُ مَحَبَّتِكَ وَإِيثَارُ الْقُرْبِ مِنْكَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that diverted me from the way to which You had guided me; or from doing what You had commanded me and avoiding what You had forbidden me; or from doing anything to which You had directed me, in which there would have been for me prosperity and attainment of Your pleasure, Your love, and Your nearness.
+        </div>
+        <div class="tags"><span class="tag">Diversion</span><span class="tag">Disobedience</span><span class="tag">Neglect</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 12</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ نَسِيتُهُ فَأَحْصَيْتَهُ، وَتَهَاوَنْتُ بِهِ فَأَثْبَتَّهُ، وَجَاهَرْتُكَ بِهِ فَسَتَرْتَهُ عَلَيَّ، وَلَوْ تُبْتُ إِلَيْكَ مِنْهُ لَغَفَرْتَهُ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that I forgot but You recorded; that I made little of but You noted; that I openly committed but You quietly concealed — and if I were to repent to You for it, You would surely forgive it.
+        </div>
+        <div class="tags"><span class="tag">Forgetfulness</span><span class="tag">Negligence</span><span class="tag">Divine Concealment</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 13</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ تَوَقَّعْتُ مِنْكَ قَبْلَ انْقِضَائِهِ تَعْجِيلَ الْعُقُوبَةِ، فَأَمْهَلْتَنِي وَأَسْبَلْتَ عَلَيَّ سِتْرًا، فَلَمْ آلُ فِي هَتْكِهِ عَنِّي جُهْدًا.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin for which, even before its completion, I anticipated Your swift punishment, but You granted me respite and draped over me a covering, yet I spared no effort in trying to tear it away from myself.
+        </div>
+        <div class="tags"><span class="tag">Respite</span><span class="tag">Divine Covering</span><span class="tag">Audacity</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 14</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ نَهَيْتَنِي عَنْهُ فَخَالَفْتُكَ إِلَيْهِ، وَحَذَّرْتَنِي إِيَّاهُ فَأَقَمْتُ عَلَيْهِ، وَقَبَّحْتَهُ عَلَيَّ فَزَيَّنَتْهُ لِي نَفْسِي.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that You prohibited to me but I opposed You by committing; and every sin that You forewarned me of but I remained firm in committing; and every sin that You deemed abominable but my lower self made attractive to me.
+        </div>
+        <div class="tags"><span class="tag">Prohibition</span><span class="tag">Stubbornness</span><span class="tag">Base Desires</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 15</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يَصْرِفُ عَنِّي رَحْمَتَكَ، أَوْ يُحِلُّ بِي نِقْمَتَكَ، أَوْ يَحْرِمُنِي كَرَامَتَكَ، أَوْ يُزِيلُ عَنِّي نِعْمَتَكَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that turns away from me Your mercy or causes Your vengeance to befall me, or deprives me of Your generosity, or takes away from me Your blessings.
+        </div>
+        <div class="tags"><span class="tag">Deprivation</span><span class="tag">Vengeance</span><span class="tag">Loss of Blessings</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 16</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ عَيَّرْتُ بِهِ أَحَدًا مِنْ خَلْقِكَ، أَوْ قَبَّحْتُ مِنْ فِعْلِ أَحَدٍ مِنْ بَرِيَّتِكَ، ثُمَّ تَقَحَّمْتُ عَلَيْهِ وَانْتَهَكْتُهُ جَرَاءَةً مِنِّي عَلَيْكَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that I reproached or condemned one of Your creation for committing, but then myself plunged into and brazenly committed before You.
+        </div>
+        <div class="tags"><span class="tag">Hypocrisy</span><span class="tag">Condemnation</span><span class="tag">Brazenness</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 17</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ تُبْتُ إِلَيْكَ مِنْهُ وَأَقْدَمْتُ عَلَى فِعْلِهِ، فَاسْتَحْيَيْتُ مِنْكَ وَأَنَا عَلَيْهِ، وَرَهِبْتُكَ وَأَنَا فِيهِ، ثُمَّ اسْتَقَلْتُكَ مِنْهُ وَعُدْتُ إِلَيْهِ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin for which I repented to You and then embarked on committing again; but then I felt ashamed before You and fearful of You while engrossed in it, so I invoked Your forgiveness for it once more, but in my weakness returned to it yet again.
+        </div>
+        <div class="tags"><span class="tag">Broken Repentance</span><span class="tag">Relapse</span><span class="tag">Weakness</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 18</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ تَوَرَّطْتُ عَلَيْهِ وَوَجَبَ فِي شَيْءٍ فَعَلْتُهُ، بِسَبَبِ عَهْدٍ عَاهَدْتُكَ عَلَيْهِ، أَوْ عَقْدٍ عَقَدْتُهُ لَكَ، أَوْ ذِمَّةٍ آلَيْتُ بِهَا مِنْ أَجْلِكَ لِأَحَدٍ مِنْ خَلْقِكَ، ثُمَّ نَقَضْتُ ذَلِكَ مِنْ غَيْرِ ضَرُورَةٍ لَزِمَتْنِي فِيهِ، بَلِ اسْتَنْزَلَنِي عَنِ الْوَفَاءِ بِهِ الْبَطَرُ، وَأَسْخَطَنِي عَنْ رِعَايَتِهِ الْأَشَرُ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that overtook me and became unavoidable for me when I took a covenant with You, or made a promise to You, or took an oath by You in regard to a responsibility to one of Your creation, and then I broke it without any excuse; it was in fact my arrogance that made me step down from fulfilling it and my insolence that made me reject observing it.
+        </div>
+        <div class="tags"><span class="tag">Broken Oaths</span><span class="tag">Arrogance</span><span class="tag">Insolence</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 19</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ لَحِقَنِي بِسَبَبِ نِعْمَةٍ أَنْعَمْتَ بِهَا عَلَيَّ، فَتَقَوَّيْتُ بِهَا عَلَى مَعَاصِيكَ، وَخَالَفْتُ فِيهَا أَمْرَكَ، وَأَقْدَمْتُ بِهَا عَلَى وَعِيدِكَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that overcame me when I abused a bounty You had bestowed upon me, using it to embolden myself in disobeying You, opposing Your command, and insolently advancing toward sin despite Your warnings of punishment.
+        </div>
+        <div class="tags"><span class="tag">Abuse of Bounties</span><span class="tag">Defiance</span><span class="tag">Ingratitude</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 20</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ قَدَّمْتُ فِيهِ شَهْوَتِي عَلَى طَاعَتِكَ، وَآثَرْتُ فِيهِ مَحَبَّتِي عَلَى أَمْرِكَ، فَأَرْضَيْتُ نَفْسِي بِغَضَبِكَ، وَعَرَّضْتُهَا لِسَخَطِكَ، إِذْ نَهَيْتَنِي وَقَدَّمْتَ إِلَيَّ فِيهِ إِنْذَارَكَ وَتَحَجَّجْتَ عَلَيَّ فِيهِ بِوَعِيدِكَ، وَأَسْتَغْفِرُكَ اللَّهُمَّ وَأَتُوبُ إِلَيْكَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin in which I gave preference to my base desire over Your obedience and my passion over Your command — thus I contented myself with Your wrath and subjected myself to Your displeasure, though You had forbidden me, presented Your admonition to me, and established the proof of it to me through Your warnings of punishment in Your revelations. I seek Your forgiveness, O Allah, and repent to You.
+        </div>
+        <div class="tags"><span class="tag">Base Desires</span><span class="tag">Ignored Warnings</span><span class="tag">Repentance</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 21</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ عَلِمْتُهُ مِنْ نَفْسِي فَأَنْسَيْتُهُ أَوْ ذَكَرْتُهُ، أَوْ تَعَمَّدْتُهُ أَوْ أَخْطَأْتُ فِيهِ، وَهُوَ مِمَّا لَا أَشُكُّ أَنَّكَ مُسَائِلِي عَنْهُ، وَأَنَّ نَفْسِي بِهِ مُرْتَهِنَةٌ لَدَيْكَ، وَإِنْ كُنْتُ قَدْ نَسِيتُهُ وَغَفَلَتْ عَنْهُ نَفْسِي.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that I knew myself to have committed, then forgot about or remembered, or that I had committed intentionally or unintentionally; and I have no doubt that it is a sin about which You will question me and for which my soul is held captive to You, even if I have become forgetful and heedless of it.
+        </div>
+        <div class="tags"><span class="tag">Forgetfulness</span><span class="tag">Accountability</span><span class="tag">Heedlessness</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 22</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ وَاجَهْتُكَ فِيهِ وَقَدْ أَيْقَنْتُ أَنَّكَ تَرَانِي عَلَيْهِ، فَنَوَيْتُ أَنْ أَتُوبَ إِلَيْكَ مِنْهُ، وَأُنْسِيتُ أَنْ أَسْتَغْفِرَكَ مِنْهُ، أَنْسَانِيهِ الشَّيْطَانُ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that I committed in front of You knowing full well that You were watching me. I intended to turn to You in repentance for it, but I was made to forget to invoke Your forgiveness — it was Satan that made me forget.
+        </div>
+        <div class="tags"><span class="tag">Omniscience</span><span class="tag">Satanic Whispers</span><span class="tag">Delayed Repentance</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 23</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ دَخَلْتُ فِيهِ بِحُسْنِ ظَنِّي فِيكَ أَنَّكَ لَا تُعَذِّبُنِي عَلَيْهِ، وَرَجَوْتُكَ لِمَغْفِرَتِهِ فَأَقْدَمْتُ عَلَيْهِ، وَقَدْ عَوَّلْتُ نَفْسِي عَلَى مَعْرِفَتِي بِكَرَمِكَ أَنْ لَا تَفْضَحَنِي بِهِ بَعْدَ إِذْ سَتَرْتَهُ عَلَيَّ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin upon which I embarked, thinking well of You — that You would forgive me for it and not punish me. I thus audaciously continued in committing it while relying, with my knowledge of Your generosity, on You not to disgrace me after having concealed it for me.
+        </div>
+        <div class="tags"><span class="tag">False Hope</span><span class="tag">Audacity</span><span class="tag">Generosity</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 24</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ اسْتَوْجَبْتُ بِهِ مِنْكَ رَدَّ الدُّعَاءِ، وَحِرْمَانَ الْإِجَابَةِ، وَخَيْبَةَ الطَّبْعِ، وَانْقِطَاعَ الرَّجَاءِ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin by which I deserved rejection of my prayers, and refusal of their acceptance, and failure in my hopes being fulfilled, and severance of hope in Your mercy.
+        </div>
+        <div class="tags"><span class="tag">Rejected Prayers</span><span class="tag">Hopelessness</span><span class="tag">Failure</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 25</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يُورِثُ الْأَسْقَامَ وَالضَّنَى، وَيُوجِبُ النِّقَمَ وَالْبَلَاءَ، وَيَكُونُ يَوْمَ الْقِيَامَةِ حَسْرَةً وَنَدَامَةً.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that brings about illnesses and emaciating diseases, and warrants punishments and misery, and will be a cause of grief and remorse on the Day of Judgment.
+        </div>
+        <div class="tags"><span class="tag">Illness</span><span class="tag">Misery</span><span class="tag">Remorse</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 26</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يُعَقِّبُ الْحَسْرَةَ، وَيُورِثُ النَّدَامَةَ، وَيَحْبِسُ الرِّزْقَ، وَيَرُدُّ الدُّعَاءَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that leaves grief on its heel, that causes remorse, that holds back sustenance, and that prevents acceptance of my prayers.
+        </div>
+        <div class="tags"><span class="tag">Grief</span><span class="tag">Blocked Sustenance</span><span class="tag">Unanswered Prayers</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 27</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ مَدَحْتُهُ بِلِسَانِي، أَوْ أَضْمَرْتُهُ بِجَنَانِي، أَوْ هَشَّتْ إِلَيْهِ نَفْسِي، أَوْ أَثْبَتُّهُ بِلِسَانِي، أَوْ أَتَيْتُهُ بِفِعْلِي، أَوْ كَتَبْتُهُ بِيَدِي، أَوِ ارْتَكَبْتُهُ أَوْ أَرْكَبْتُ فِيهِ عِبَادَكَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that I praised with my tongue, or that I resolved upon in my heart, or that my soul took pleasure in, or that my tongue endorsed, or that I effected with my actions, or that I wrote with my hand, or that I committed in any way or caused one of Your servants to commit.
+        </div>
+        <div class="tags"><span class="tag">Speech</span><span class="tag">Actions</span><span class="tag">Intentions</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 28</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ خَلَوْتُ بِهِ فِي لَيْلِي وَنَهَارِي، وَأَرْخَيْتَ فِيهِ عَلَيَّ السَّتَارَ حَيْثُ لَا يَرَانِي فِيهِ إِلَّا أَنْتَ يَا جَبَّارُ، فَارْتَابَتْ نَفْسِي فِيهِ، وَتَحَيَّرْتُ بَيْنَ تَرْكِي لَهُ بِخَوْفِكَ وَانْتِهَاكِي لَهُ بِحُسْنِ الظَّنِّ فِيكَ، فَسَوَّلَتْ لِي نَفْسِي الْإِقْدَامَ عَلَيْهِ، وَأَنَا عَارِفٌ بِمَعْصِيَتِي فِيهِ لَكَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that I committed in solitude during my night and my day, yet You lowered over me a covering so that none besides You — O All-Compelling One — could see me engaged in it. My soul thus fell into confusion, and I wavered between abandoning it out of fear of You and committing it out of good hopes in Your mercy; but my lower self adorned it for me such that I boldly committed it, though being aware that, in doing so, I was disobeying You.
+        </div>
+        <div class="tags"><span class="tag">Solitude</span><span class="tag">Confusion</span><span class="tag">Boldness</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 29</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ اسْتَقْلَلْتُهُ فَاسْتَعْظَمْتَهُ، وَاسْتَصْغَرْتُهُ فَاسْتَكْبَرْتَهُ، وَوَرَّطَنِي فِيهِ جَهْلِي بِهِ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that I took to be petty but You took to be grave, that I deemed to be small but You deemed to be great, and in which my own ignorance embroiled me.
+        </div>
+        <div class="tags"><span class="tag">Ignorance</span><span class="tag">Trivializing Sins</span><span class="tag">Gravity</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 30</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ أَضْلَلْتُ بِهِ أَحَدًا مِنْ خَلْقِكَ، أَوْ أَسَأْتُ بِهِ إِلَى أَحَدٍ مِنْ بَرِيَّتِكَ، أَوْ زَيَّنَتْهُ فِي نَفْسِي، أَوْ أَشَرْتُ بِهِ إِلَى غَيْرِي، أَوْ دَلَلْتُ عَلَيْهِ سِوَايَ، وَأَصْرَرْتُ عَلَيْهِ بِعَمْدِي، أَوْ أَقَمْتُ عَلَيْهِ بِجَهْلِي.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin by which I misguided one of Your creation, or through which I mistreated one of them, or which my lower self made seemingly attractive to me, or which I pointed out to another person, or to which I steered someone besides myself, or in which I intentionally persisted, or to which I remained stubbornly attached out of my foolishness.
+        </div>
+        <div class="tags"><span class="tag">Misguidance</span><span class="tag">Mistreatment</span><span class="tag">Stubbornness</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 31</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ خُنْتُ بِهِ أَمَانَتِي، أَوْ أَحْسَنَتْ لِي نَفْسِي فِعْلَهُ، أَوْ أَخْطَأْتُ بِهِ عَلَى بَدَنِي، أَوْ قَدَّمْتُ فِيهِ عَلَيْكَ شَهْوَتِي، أَوْ كَثَّرْتُ فِيهِ لَذَّتِي، أَوْ سَعَيْتُ فِيهِ لِغَيْرِي، أَوِ اسْتَغْوَيْتُ إِلَيْهِ مَنْ تَابَعَنِي، أَوْ كَابَرْتُ فِيهِ مَنْ مَنَعَنِي، أَوْ قَهَرْتُ عَلَيْهِ مَنْ غَلَبَنِي، أَوْ غَلَبْتُ عَلَيْهِ بِحِيلَتِي، أَوِ اسْتَزَلَّنِي إِلَيْهِ مَيْلِي.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin by which I betrayed my trust of obedience, or whose perpetration my lower self commended to me, or by which I violated the rights of my own body, or in doing which I gave precedence to my base desires over obedience to You, or from which I gained excessive delight, or which I strove to do for the sake of another, or to which I lured my followers, or on which I remained stubborn against one who tried to prevent me, or in committing which I overcame one who tried to obstruct me or subdued him through my cunning, or into which my evil tendencies caused me to slip.
+        </div>
+        <div class="tags"><span class="tag">Betrayal</span><span class="tag">Base Desires</span><span class="tag">Cunning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 32</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ اسْتَعَنْتُ عَلَيْهِ بِحِيلَةٍ تُدْنِي مِنْ غَضَبِكَ، أَوِ اسْتَظْهَرْتُ بِنَيْلِهِ عَلَى أَهْلِ طَاعَتِكَ، أَوِ اسْتَمَلْتُ بِهِ أَحَدًا مِنْ خَلْقِكَ إِلَى مَعْصِيَتِكَ أَوْ رُمْتُهُ، وَأَظْهَرْتُ لِعِبَادِكَ بِفِعْلِي كَأَنِّي بِحِيلَتِي أُرِيدُكَ، وَالْمُرَادُ بِهِ مَعْصِيَتُكَ، وَالْهَوَى مُنْصَرِفٌ عَنْ طَاعَتِكَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin for which I employed such cunning that invokes Your wrath, or in committing which I overcame those in Your obedience, or by which I lured — or intended to lure — one of Your creation into disobeying You. And though I made it seem to Your servants that through my endeavors I seek You and Your pleasure, my true aim was to disobey You, and as such my desire was turned away from Your obedience.
+        </div>
+        <div class="tags"><span class="tag">Deceit</span><span class="tag">False Piety</span><span class="tag">Wrath</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 33</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ كَتَبْتَهُ عَلَيَّ بِسَبَبِ عُجْبٍ كَانَ مِنِّي بِنَفْسِي، أَوْ رِيَاءٍ أَوْ سُمْعَةٍ أَوْ حِقْدٍ أَوْ شَحْنَاءَ أَوْ خِيَانَةٍ أَوْ خُيَلَاءَ أَوْ فَرَحٍ أَوْ مَرَحٍ أَوْ عِنَادٍ أَوْ حَسَدٍ أَوْ أَشَرٍ أَوْ بَطَرٍ أَوْ حَمِيَّةٍ أَوْ عَصَبِيَّةٍ أَوْ رِضَاءٍ أَوْ رَجَاءٍ أَوْ شُحٍّ أَوْ سَخَاءٍ أَوْ ظُلْمٍ أَوْ حِيلَةٍ أَوْ سَرِقَةٍ أَوْ كَذِبٍ أَوْ غِيبَةٍ أَوْ لَهْوٍ أَوْ لَغْوٍ أَوْ نَمِيمَةٍ أَوْ لَعْبٍ، أَوْ نَوْعٍ مِنَ الْأَنْوَاعِ مِمَّا يُكْتَسَبُ بِمِثْلِهِ الذُّنُوبُ، وَيَكُونُ فِي اتِّبَاعِهِ الْعَطَبُ وَالْحُوبُ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that You recorded against me because of my conceit, or ostentation, or desire to be heard, or malice, or rancor, or treachery, or pride, or exultancy, or intemperate mirth, or obstinacy, or envy, or insolence, or ungratefulness, or fervor for other than Your sake, or bigotry, or acquiescence to sin, or blind hope, or extreme avarice, or generous spending for sin, or oppression, or unwarranted cunning, or theft, or lying, or backbiting, or idle amusement, or fruitless talk, or calumny, or useless play, or any such activity by doing which sins are reaped and in pursuing which is destruction and grief.
+        </div>
+        <div class="tags"><span class="tag">Conceit</span><span class="tag">Malice</span><span class="tag">Vices</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 34</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ رَهِبْتُ فِيهِ سِوَاكَ، وَعَادَيْتُ فِيهِ أَوْلِيَاءَكَ، وَوَالَيْتُ فِيهِ أَعْدَاءَكَ، وَخَذَلْتُ فِيهِ أَحِبَّاءَكَ، وَتَعَرَّضْتُ لِشَيْءٍ مِنْ غَضَبِكَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin in doing which I feared someone besides You, and opposed Your friends, and befriended Your enemies, and forsook those beloved to You, and placed myself in the path of Your anger.
+        </div>
+        <div class="tags"><span class="tag">Fear Of Creation</span><span class="tag">Enmity</span><span class="tag">Anger</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 35</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ سَبَقَ فِي عِلْمِكَ أَنِّي فَاعِلُهُ بِقُدْرَتِكَ الَّتِي قَدَرْتَ بِهَا عَلَيَّ وَعَلَى كُلِّ شَيْءٍ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness, through the power You possess over me and over everything, for every sin that I was destined, in Your eternal knowledge, to commit.
+        </div>
+        <div class="tags"><span class="tag">Destiny</span><span class="tag">Divine Knowledge</span><span class="tag">Power</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 36</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ تُبْتُ إِلَيْكَ مِنْهُ ثُمَّ عُدْتُ فِيهِ، وَنَقَضْتُ فِيهِ الْعَهْدَ فِيمَا بَيْنِي وَبَيْنَكَ جَرَاءَةً مِنِّي عَلَيْكَ لِمَعْرِفَتِي بِعَفْوِكَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin for which I repented to You, but which I then returned to, breaking the covenant between me and You, out of my insolence and my knowledge of Your abundant forgiveness.
+        </div>
+        <div class="tags"><span class="tag">Broken Covenants</span><span class="tag">Insolence</span><span class="tag">Presumption</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 37</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ أَدْنَانِي مِنْ عَذَابِكَ، أَوْ أَنْأَانِي مِنْ ثَوَابِكَ، أَوْ حَجَبَ عَنِّي رَحْمَتَكَ، أَوْ كَدَّرَ عَلَيَّ نِعْمَتَكَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that has drawn me near to Your punishment, or has distanced me from Your reward, or has hidden from me Your mercy, or has sullied for me Your blessings.
+        </div>
+        <div class="tags"><span class="tag">Punishment</span><span class="tag">Distance</span><span class="tag">Sullied Blessings</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 38</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ حَلَّلْتُ بِهِ عَقْدًا شَدَدْتَهُ، أَوْ شَدَدْتُ بِهِ عَقْدًا حَلَّلْتَهُ بِخَيْرٍ وَعَدْتَهُ، فَلَحِقَنِي شُحٌّ فِي نَفْسِي حُرِمْتُ بِهِ خَيْرًا أَسْتَحِقُّهُ أَوْ حَرَمْتُ بِهِ نَفْسًا تَسْتَحِقُّهُ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin by which I permitted what You had forbidden or forbade what You had permitted while acquiring some good You had promised. For extreme greed had entered into my heart, and because of it I was deprived of some good that I could have deserved, or by it I deprived another soul of some good that it deserved.
+        </div>
+        <div class="tags"><span class="tag">Greed</span><span class="tag">Forbidding The Lawful</span><span class="tag">Deprivation</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 39</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ ارْتَكَبْتُهُ بِشُمُولِ عَافِيَتِكَ، أَوْ تَمَكَّنْتُ مِنْهُ بِفَضْلِ نِعْمَتِكَ، أَوْ تَقَوَّيْتُ بِهِ عَلَى دَفْعِ نِقْمَتِكَ عَنِّي، أَوْ مَدَدْتُ إِلَيْهِ يَدِي بِسَابِغِ رِزْقِكَ، أَوْ خَيْرٍ أَرَدْتُ بِهِ وَجْهَكَ الْكَرِيمَ، فَخَالَطَنِي فِيهِ شُحُّ نَفْسِي بِمَا لَيْسَ فِيهِ رِضَاكَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that I committed with the good health You granted me, or gained the ability to do because of Your endless blessings, or became more bold in doing due to Your keeping away Your vengeance from me, or toward which I extended my hands by means of Your plentiful sustenance; or any sin that I committed, initially doing some good action seeking therewith Your noble Countenance, but into which my soul's covetousness mixed what invoked Your displeasure.
+        </div>
+        <div class="tags"><span class="tag">Good Health</span><span class="tag">Covetousness</span><span class="tag">Mixed Intentions</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 40</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ دَعَانِي إِلَيْهِ الرُّخَصُ أَوِ الْحِرْصُ، فَرَغِبْتُ فِيهِ وَحَلَّلْتُ لِنَفْسِي مَا هُوَ مُحَرَّمٌ عِنْدَكَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin to which my search for excuses and my craving for the world invited me, and thus I sought to commit it and so made lawful for myself what You had decreed unlawful.
+        </div>
+        <div class="tags"><span class="tag">Excuses</span><span class="tag">Worldly Craving</span><span class="tag">Making Lawful</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 41</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ خَفِيَ عَلَى خَلْقِكَ وَلَمْ يَعْزُبْ عَنْكَ، فَاسْتَقَلْتُكَ مِنْهُ فَأَقَلْتَنِي ثُمَّ عُدْتُ فِيهِ فَسَتَرْتَهُ عَلَيَّ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that remained hidden from Your creation but did not escape You, for which I repented to You and You forgave me. But I then returned to it, yet You still kept it concealed for me.
+        </div>
+        <div class="tags"><span class="tag">Hidden Sins</span><span class="tag">Relapse</span><span class="tag">Divine Concealment</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 42</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ خَطَوْتُ إِلَيْهِ بِرِجْلِي، أَوْ مَدَدْتُ إِلَيْهِ يَدِي، أَوْ تَأَمَّلْتُهُ بِبَصَرِي، أَوْ أَصْغَيْتُ إِلَيْهِ بِأُذُنِي، أَوْ نَطَقْتُ بِهِ لِسَانِي، أَوْ أَتْلَفْتُ فِيهِ مَا رَزَقْتَنِي، ثُمَّ اسْتَرْزَقْتُكَ عَلَى عِصْيَانِي فَرَزَقْتَنِي، ثُمَّ اسْتَعَنْتُ بِرِزْقِكَ عَلَى عِصْيَانِكَ فَسَتَرْتَ عَلَيَّ، ثُمَّ سَأَلْتُكَ الزِّيَادَةَ فَلَمْ تَحْرِمْنِي، ثُمَّ جَاهَرْتُكَ بَعْدَ الزِّيَادَةِ فَلَمْ تَفْضَحْنِي، فَلَا أَزَالُ مُصِرًّا عَلَى مَعْصِيَتِكَ وَلَا تَزَالُ عَائِدًا عَلَيَّ بِحِلْمِكَ وَكَرَمِكَ، يَا أَكْرَمَ الْأَكْرَمِينَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin toward which I walked with my legs, or toward which I extended my hands, or which I closely observed with my eyes, or which I carefully listened to with my ears, or which I uttered with my tongue, or in which I squandered of the sustenance You had provided me. Then, despite my disobedience, I asked You for more sustenance, and You provided it to me. Then again, I used Your sustenance in disobeying You, but You kept Your covering over me. Yet again I asked You for more, and You still did not deprive me. Then after Your increase, I openly transgressed against You, but You did not humiliate me. I have thus constantly persisted in disobeying You, and You have constantly remained clement and benevolent with me — O Most Benevolent of the benevolent!
+        </div>
+        <div class="tags"><span class="tag">Squandered Sustenance</span><span class="tag">Sins Of The Limbs</span><span class="tag">Benevolence</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 43</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يُوجِبُ صَغِيرُهُ أَلِيمَ عَذَابِكَ، وَيُحِلُّ كَبِيرُهُ شَدِيدَ عِقَابِكَ، وَفِي إِتْيَانِهِ تَعْجِيلُ نِقْمَتِكَ، وَفِي الْإِصْرَارِ عَلَيْهِ زَوَالُ نِعْمَتِكَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin, the minor of which warrants Your painful punishment, the major of which causes Your severe punishment to descend, and the committing of which hastens Your vengeance, and the persisting in which brings an end to Your bounty.
+        </div>
+        <div class="tags"><span class="tag">Minor Sins</span><span class="tag">Major Sins</span><span class="tag">Punishment</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 44</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ لَمْ يَطَّلِعْ عَلَيْهِ أَحَدٌ سِوَاكَ، وَلَمْ يَعْلَمْ بِهِ أَحَدٌ غَيْرُكَ، مِمَّا يُنْجِينِي مِنْهُ إِلَّا عَفْوُكَ، وَلَا يَسَعُهُ إِلَّا مَغْفِرَتُكَ وَحِلْمُكَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that nobody knew of but You, and that nobody was aware of but You — it is among those grave sins from which nothing but Your pardon can save me, and which nothing but Your forgiveness and forbearance can encompass.
+        </div>
+        <div class="tags"><span class="tag">Grave Sins</span><span class="tag">Omniscience</span><span class="tag">Pardon</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 45</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يُزِيلُ النِّعَمَ، وَيُحِلُّ النِّقَمَ، وَيَهْتِكُ الْحُرَمَ، وَيُطِيلُ السَّقَمَ، وَيُعَجِّلُ الْأَلَمَ، وَيُورِثُ النَّدَمَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that removes blessings, and causes punishments to descend, and violates the sacred, and prolongs illness, and hastens anguish, and leaves behind it remorse.
+        </div>
+        <div class="tags"><span class="tag">Loss Of Blessings</span><span class="tag">Illness</span><span class="tag">Remorse</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 46</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يَمْحَقُ الْحَسَنَاتِ، وَيُضَاعِفُ السَّيِّئَاتِ، وَيُحِلُّ النَّقَمَاتِ، وَيُغْضِبُكَ يَا رَبَّ السَّمَاوَاتِ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that obliterates good deeds, and multiplies evil deeds, and causes punishments to descend, and angers You, O Lord of the Heavens!
+        </div>
+        <div class="tags"><span class="tag">Obliterated Deeds</span><span class="tag">Multiplied Evil</span><span class="tag">Divine Anger</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 47</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ أَنْتَ أَحَقُّ بِمَغْفِرَتِهِ إِذْ كُنْتَ أَوْلَى بِسِتْرِهِ، فَإِنَّكَ أَهْلُ التَّقْوَى وَأَهْلُ الْمَغْفِرَةِ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that You are most worthy to forgive, for You were the One most noble in keeping it concealed. Indeed, You are all-worthy of reverent fear and all-worthy of granting forgiveness.
+        </div>
+        <div class="tags"><span class="tag">Worthy Of Fear</span><span class="tag">Granting Forgiveness</span><span class="tag">Divine Concealment</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 48</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ ظَلَمْتُ بِسَبَبِهِ وَلِيًّا مِنْ أَوْلِيَائِكَ، مُسَاعَدَةً لِأَعْدَائِكَ، وَمَيْلًا مَعَ أَهْلِ مَعْصِيَتِكَ عَلَى أَهْلِ طَاعَتِكَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin by which I wronged one of Your friends while assisting Your enemies and siding with those in Your disobedience against those in Your obedience.
+        </div>
+        <div class="tags"><span class="tag">Injustice</span><span class="tag">Siding With Enemies</span><span class="tag">Wronging Friends</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 49</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ أَلْبَسَنِي كَثْرَةُ انْهِمَاكِي فِيهِ ذِلَّةً، وَآيَسَنِي مِنْ وُجُودِ رَحْمَتِكَ، أَوْ قَصَّرَ بِي الْيَأْسُ عَنِ الرُّجُوعِ إِلَى طَاعَتِكَ، لِمَعْرِفَتِي بِعَظِيمِ جُرْمِي وَسُوءِ ظَنِّي بِنَفْسِي.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin in which my deep engrossment cloaked me with humiliation and made me despair of the existence of Your mercy; or it was despair that prevented me from returning to obeying You, as I realized the severity of my crime and mired hopelessly in my low opinion of myself.
+        </div>
+        <div class="tags"><span class="tag">Humiliation</span><span class="tag">Despair</span><span class="tag">Low Opinion</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 50</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ أَوْرَثَنِي الْهَلَكَةَ لَوْلَا حِلْمُكَ وَرَحْمَتُكَ، وَأَدْخَلَنِي دَارَ الْبَوَارِ لَوْلَا نِعْمَتُكَ، وَسَلَكَ بِي سَبِيلَ الْغَيِّ لَوْلَا إِرْشَادُكَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that would have brought my destruction had it not been for Your forbearance and mercy; and would have entered me into the Abode of Perdition had it not been for Your favor; and would have taken me down the path of deviance had it not been for Your guidance.
+        </div>
+        <div class="tags"><span class="tag">Destruction</span><span class="tag">Hellfire</span><span class="tag">Divine Guidance</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 51</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يَكُونُ فِي اجْتِرَاحِهِ قَطْعُ الرَّجَاءِ، وَرَدُّ الدُّعَاءِ، وَتَوَاتُرُ الْبَلَاءِ، وَتَرَادُفُ الْهُمُومِ، وَتَضَاعُفُ الْغُمُومِ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin whose perpetration brings loss of hope, and rejection of prayer, and consecutive calamities, and successive anxieties, and multiplied sorrows.
+        </div>
+        <div class="tags"><span class="tag">Loss Of Hope</span><span class="tag">Calamities</span><span class="tag">Anxieties</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 52</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يَرُدُّ عَنْكَ دُعَائِي، وَيُطِيلُ فِي سَخَطِكَ عَنَائِي، أَوْ يُقَصِّرُ عَنْكَ أَمَلِي.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that turns my prayer away from You, and prolongs my suffering of Your displeasure, and shortens my hope in You.
+        </div>
+        <div class="tags"><span class="tag">Turned Prayers</span><span class="tag">Displeasure</span><span class="tag">Shortened Hope</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 53</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يُمِيتُ الْقَلْبَ، وَيُشْعِلُ الْكَرْبَ، وَيُشْغِلُ الْفِكْرَ، وَيُرْضِي الشَّيْطَانَ، وَيُسْخِطُ الرَّحْمَنَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that kills the heart, and incites anxiety and preoccupies the mind, and pleases Satan, and angers the All-Merciful.
+        </div>
+        <div class="tags"><span class="tag">Spiritual Death</span><span class="tag">Pleasing Satan</span><span class="tag">Angering The Merciful</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 54</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يُعَقِّبُ الْيَأْسَ مِنْ رَحْمَتِكَ، وَالْقُنُوطَ مِنْ مَغْفِرَتِكَ، وَالْحِرْمَانَ مِنْ سِعَةِ مَا عِنْدَكَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that leaves on its heel despair of Your mercy and despondency of Your forgiveness, and deprivation of Your vast treasures.
+        </div>
+        <div class="tags"><span class="tag">Despair</span><span class="tag">Despondency</span><span class="tag">Deprivation</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 55</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ أَمَقْتُ عَلَيْهِ نَفْسِي إِجْلَالًا لَكَ، وَأَظْهَرْتُ لَكَ التَّوْبَةَ فَقَبِلْتَ، وَسَأَلْتُكَ الْعَفْوَ فَعَفَوْتَ، ثُمَّ أَعَادَنِي الْهَوَى إِلَى مُعَاوَدَةِ مَا طَمِعًا فِي سِعَةِ رَحْمَتِكَ وَكَرَمِ عَفْوِكَ، نَاسِيًا لِوَعِيدِكَ رَاجِيًا لِجَمِيلِ وَعْدِكَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin for which I despised myself out of reverence for You. I expressed my repentance to You and You accepted it. I invoked Your pardon and You granted it. Then my base desires returned me to my old habits, as I only longed for Your abundant mercy and generous forgiveness, and forgot Your threats of punishment, and entertained hopes of Your gracious promises of reward.
+        </div>
+        <div class="tags"><span class="tag">Reverence</span><span class="tag">Accepted Repentance</span><span class="tag">Old Habits</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 56</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يُورِثُ سَوَادَ الْوَجْهِ يَوْمَ تَبْيَضُّ وُجُوهُ أَوْلِيَائِكَ وَتَسْوَدُّ وُجُوهُ أَعْدَائِكَ، إِذَا أَقْبَلَ بَعْضُهُمْ عَلَى بَعْضٍ يَتَلَاوَمُونَ، فَتَقُولُ: لَا تَخْتَصِمُوا لَدَيَّ وَقَدْ قَدَّمْتُ إِلَيْكُمْ بِالْوَعِيدِ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that will blacken my face on the day when the faces of Your friends will be whitened and the faces of Your enemies will be blackened — when Your enemies will turn, one against another, in reproach, and You will say, "Dispute not with each other in My presence, for I have already sent to you advanced warning" (Quran 50:28).
+        </div>
+        <div class="tags"><span class="tag">Blackened Face</span><span class="tag">Judgment Day</span><span class="tag">Disputing</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 57</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ فَهِمْتُهُ، وَصَمَتُّ عَنْهُ حَيَاءً مِنْكَ عِنْدَ ذِكْرِهِ، أَوْ كَتَمْتُهُ فِي صَدْرِي وَعَلِمْتَهُ مِنِّي، فَإِنَّكَ تَعْلَمُ السِّرَّ وَأَخْفَى.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that I understood to be a sin and, out of shame before You, remained silent when remembering it; and every sin that I concealed in my heart but You knew of in me, for You know what is secret and what is still more hidden.
+        </div>
+        <div class="tags"><span class="tag">Shame</span><span class="tag">Silence</span><span class="tag">Secret Sins</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 58</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يُبْغِضُنِي إِلَى عِبَادِكَ، وَيُنَفِّرُ عَنِّي أَوْلِيَاءَكَ، أَوْ يُوحِشُنِي مِنْ أَهْلِ طَاعَتِكَ، بِوَحْشَةِ الْمَعَاصِي وَرُكُوبِ الْحُوبِ، وَارْتِكَابِ الذُّنُوبِ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that makes me detestable to Your servants, and repels from me Your friends; or that estranges me from those in Your obedience, due to the disquietude of my disobedience, my mounting grief, and my perpetration of sins.
+        </div>
+        <div class="tags"><span class="tag">Detestable</span><span class="tag">Estrangement</span><span class="tag">Disquietude</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 59</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يَدْعُو إِلَى الْكُفْرِ، وَيُطِيلُ الْفِكْرَ، وَيُورِثُ الْفَقْرَ، وَيَجْلِبُ الْعُسْرَ، وَيَصُدُّ عَنِ الْخَيْرِ، وَيَهْتِكُ السِّتْرَ، وَيَمْنَعُ الْيُسْرَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that calls to unbelief and prolongs indecisiveness in thought, and leads to poverty and brings on hardship, and prevents prosperity and rends the covering from over my sins, and prevents ease.
+        </div>
+        <div class="tags"><span class="tag">Unbelief</span><span class="tag">Poverty</span><span class="tag">Hardship</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 60</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يُدْنِي الْآجَالَ، وَيَقْطَعُ الْآمَالَ، وَيَشِينُ الْأَعْمَالَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that draws nearer people's appointed times of death, and severs hopes in Your mercy, and spoils good deeds.
+        </div>
+        <div class="tags"><span class="tag">Death</span><span class="tag">Severed Hopes</span><span class="tag">Spoiled Deeds</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 61</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يُدَنِّسُ مَا طَهَّرْتَهُ، وَيَكْشِفُ عَنِّي مَا سَتَرْتَهُ، أَوْ يُقَبِّحُ مِنِّي مَا زَيَّنْتَهُ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that pollutes what You have made pure, and exposes of me what You have covered of my wrongdoings, or makes repulsive what You have beautified in me.
+        </div>
+        <div class="tags"><span class="tag">Pollution</span><span class="tag">Exposure</span><span class="tag">Repulsiveness</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 62</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ لَا يُنَالُ بِهِ عَهْدُكَ، وَلَا يُؤْمَنُ مَعَهُ غَضَبُكَ، وَلَا تَنْزِلُ بِهِ رَحْمَتُكَ، وَلَا تَدُومُ مَعِي نِعْمَتُكَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin because of which Your promise cannot be obtained, and in the presence of which safety from Your wrath cannot be felt, Your mercy cannot descend, and Your permanent favors cannot be attained.
+        </div>
+        <div class="tags"><span class="tag">Broken Promises</span><span class="tag">Wrath</span><span class="tag">Blocked Mercy</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 63</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ اسْتَخْفَيْتُ بِهِ فِي ضَوْءِ النَّهَارِ عَنْ عِبَادِكَ، وَبَارَزْتُكَ بِهِ فِي ظُلْمَةِ اللَّيْلِ جَرَاءَةً مِنِّي عَلَيْكَ، عَلَى أَنِّي أَعْلَمُ أَنَّ السِّرَّ عِنْدَكَ عَلَانِيَةٌ، وَأَنَّ الْخَفِيَّةَ عِنْدَكَ بَارِزَةٌ، وَأَنَّهُ لَا يَمْنَعُنِي مِنْكَ مَانِعٌ، وَلَا يَنْفَعُنِي عِنْدَكَ نَافِعٌ مِنْ مَالٍ وَبَنِينَ، إِلَّا أَنْ آتِيَكَ بِقَلْبٍ سَلِيمٍ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin in doing which I concealed myself from Your servants in the light of day but openly and daringly opposed You by committing in the darkness of night. This I did while knowing that secrets are open to You, and that the hidden is exposed to You, and that nothing can protect me from Your punishment, nor can anything — neither my wealth nor my children — avail me before You, except that I come to You with a sound heart.
+        </div>
+        <div class="tags"><span class="tag">Day And Night</span><span class="tag">Exposed Secrets</span><span class="tag">Sound Heart</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 64</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ يُورِثُ النِّسْيَانَ لِذِكْرِكَ، أَوْ يُعَقِّبُ الْغَفْلَةَ عَنْ تَحْذِيرِكَ، وَيَتَمَادَى بِي إِلَى الْأَمْنِ مِنْ مَكْرِكَ، أَوْ يُؤَيِّسُنِي مِنْ خَيْرِ مَا عِنْدَكَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that causes forgetfulness of Your remembrance; or that brings on its heel heedlessness of Your warning and drives me to senselessly feel safe from Your devising; or that causes me to despair of the good reward You possess.
+        </div>
+        <div class="tags"><span class="tag">Forgetfulness</span><span class="tag">Heedlessness</span><span class="tag">False Security</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 65</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ لَحِقَنِي بِسَبَبِ عَتْبِي عَلَيْكَ فِي إِحْبَاسِ الرِّزْقِ عَنِّي، وَشِكَايَتِي مِنْكَ، وَإِعْرَاضِي عَنْكَ، وَمَيْلِي إِلَى عِبَادِكَ بِالِاسْتِكَانَةِ لَهُمْ وَالتَّضَرُّعِ إِلَيْهِمْ، وَقَدْ أَسْمَعْتَنِي قَوْلَكَ فِي مُحْكَمِ كِتَابِكَ: فَمَا اسْتَكَانُوا لِرَبِّهِمْ وَمَا يَتَضَرَّعُونَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that overtook me because I disrespectfully complained and objected to You for withholding Your subsistence from me, and because I turned away from You and inclined instead toward Your powerless servants in submissiveness and earnest petition; whereas You had let me hear Your clear statement in Your Book, "But they humbled not themselves to their Lord, nor did they submissively entreat Him" (Quran 23:76).
+        </div>
+        <div class="tags"><span class="tag">Complaining</span><span class="tag">Relying On Creation</span><span class="tag">Withheld Sustenance</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 66</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ لَزِمَنِي بِسَبَبِ كُرْبَةٍ اسْتَغَثْتُ عِنْدَهَا بِغَيْرِكَ، وَاسْتَعَنْتُ عَلَيْهَا بِسِوَاكَ، وَاسْتَمْدَدْتُ بِأَحَدٍ فِيهَا دُونَكَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that remained with me because, when anxiety struck, I sought aid, succor, and support from someone besides You.
+        </div>
+        <div class="tags"><span class="tag">Anxiety</span><span class="tag">Seeking Aid Elsewhere</span><span class="tag">Shirk</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 67</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ حَمَلَنِي عَلَيْهِ الْخَوْفُ مِنْ غَيْرِكَ، وَدَعَانِي إِلَى التَّضَرُّعِ لِأَحَدٍ مِنْ خَلْقِكَ، أَوِ اسْتَمَالَنِي إِلَى الطَّمَعِ فِيمَا عِنْدَ غَيْرِكَ، فَآثَرْتُ طَاعَتَهُمْ فِي مَعْصِيَتِكَ اسْتِجْلَابًا لِمَا فِي يَدَيْهِمْ، وَأَنَا أَعْلَمُ بِحَاجَتِي إِلَيْكَ كَمَا لَا غِنَى لِي عَنْكَ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin to which fear of someone besides You drove me, and it called me to earnestly entreat one of Your creation or inclined me to yearn for what others besides You possessed — so I preferred to obey them and disobey You in order to lay hand on what they had, though I was aware that I am in need of You and that I am never free and independent of Your support.
+        </div>
+        <div class="tags"><span class="tag">Fear Of Creation</span><span class="tag">Disobedience For Gain</span><span class="tag">Dependency</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 68</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ مَثَّلَتْ لِي نَفْسِي اسْتِقْلَالَهُ، وَصَوَّرَتْ لِي اسْتِصْغَارَهُ، وَقَلَّلَتْهُ حَتَّى وَرَّطَتْنِي فِيهِ.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that my soul made seem to me trivial and small, and continued to make seem insignificant, until it finally entangled me in it.
+        </div>
+        <div class="tags"><span class="tag">Trivializing Sins</span><span class="tag">Entanglement</span><span class="tag">Deception</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 69</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ جَرَى بِهِ قَلَمُكَ، وَأَحَاطَ بِهِ عِلْمُكَ فِيَّ وَعَلَيَّ إِلَى آخِرِ عُمْرِي. وَلِجَمِيعِ ذُنُوبِي كُلِّهَا، أَوَّلِهَا وَآخِرِهَا، عَمْدِهَا وَخَطَئِهَا، قَلِيلِهَا وَكَثِيرِهَا، صَغِيرِهَا وَكَبِيرِهَا، دَقِيقِهَا وَجَلِيلِهَا، قَدِيمِهَا وَحَدِيثِهَا، سِرِّهَا وَجَهْرِهَا وَعَلَانِيَتِهَا، وَلِمَا أَنَا مُذْنِبٌ فِي جَمِيعِ عُمْرِي.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin that Your pen recorded and Your knowledge encompassed — every one that I have committed and that I am to commit until the end of my life. I seek Your forgiveness for all my sins: the first and the last, the intentional and the unintentional, the few and the many; the minor and the major, the subtle and the noticeable, the past and the recent, the secret and the open and public — and all those I am to commit throughout my life.
+        </div>
+        <div class="tags"><span class="tag">All Sins</span><span class="tag">Divine Pen</span><span class="tag">Lifelong Forgiveness</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Prayer 70</span></div>
+        <div class="arabic">اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ ذَنْبٍ لِي، وَأَسْأَلُكَ أَنْ تَغْفِرَ لِي مَا أَحْصَيْتَ عَلَيَّ مِنْ مَظَالِمِ الْعِبَادِ قِبَلِي، فَإِنَّ لِعِبَادِكَ عَلَيَّ حُقُوقًا وَمَظَالِمَ وَأَنَا بِهَا مُرْتَهَنٌ. اللَّهُمَّ وَإِنْ كَانَتْ كَثِيرَةً فَإِنَّهَا فِي جَنْبِ عَفْوِكَ يَسِيرَةٌ. اللَّهُمَّ أَيُّمَا عَبْدٍ مِنْ عِبَادِكَ أَوْ أَمَةٍ مِنْ إِمَائِكَ كَانَتْ لَهُ مَظْلِمَةٌ عِنْدِي، قَدْ غَصَبْتُهُ عَلَيْهَا فِي أَرْضِهِ أَوْ مَالِهِ أَوْ عِرْضِهِ أَوْ بَدَنِهِ، أَوْ غَابَ أَوْ حَضَرَ هُوَ أَوْ خَصْمُهُ يُطَالِبُنِي بِهَا، وَلَمْ أَسْتَطِعْ أَنْ أَرُدَّهَا إِلَيْهِ وَلَمْ أَسْتَحْلِلْهَا مِنْهُ، فَأَسْأَلُكَ بِكَرَمِكَ وَجُودِكَ وَسِعَةِ مَا عِنْدَكَ أَنْ تُرْضِيَهُمْ عَنِّي، وَلَا تَجْعَلْ لَهُمْ عَلَيَّ شَيْئًا مُنَقِّصًا مِنْ حَسَنَاتِي، فَإِنَّ عِنْدَكَ مَا يُرْضِيهِمْ عَنِّي وَلَيْسَ عِنْدِي مَا يُرْضِيهِمْ، وَلَا تَجْعَلْ يَوْمَ الْقِيَامَةِ لِسَيِّئَاتِهِمْ عَلَى حَسَنَاتِي سَبِيلًا.</div>
+        <div class="translation">
+            O Allah, I seek Your forgiveness for every sin of mine. I ask You to forgive me all the injustices against Your servants that You have enumerated against me; for Your servants have against me many claims of violated rights and injustices to which I am held captive. O Allah, even if these evil deeds of mine are many in number, they are a paltry few in sight of Your forgiveness. O Allah, any male or female servant of Yours who has against me a claim of injustice, that I forcibly seized from him something of his land or wealth or honour or body — whether he was absent or present, or whether he or his representatives demanded from me compensation for it but neither was I able to return it to him nor did I seek to be pardoned for it — I ask that You, with Your benevolence, generosity and abundant treasures, satisfy them on my behalf; and do not give them over me power to take away and decrease my good deeds. For indeed, You possess what can satisfy them on my behalf and I do not. And do not make a way for their bad deeds to overcome my good deeds on the Day of Judgment.
+        </div>
+        <div class="tags"><span class="tag">Injustices To Others</span><span class="tag">Usurped Rights</span><span class="tag">Day Of Judgment</span></div>
+    </div>
+
+    <div class="verse-card" style="background: #f8fafc; border-color: var(--primary-accent);">
+        <div class="verse-header"><span class="verse-number" style="background: #2b6cb0;">Concluding Prayers</span></div>
+
+        <div class="arabic" style="font-size: 2rem;">أَسْتَغْفِرُ اللهَ الَّذِي لَا إِلَهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ وَأَتُوبُ إِلَيْهِ، اسْتِغْفَارًا يَزِيدُ فِي كُلِّ طَرْفَةِ عَيْنٍ وَتَحْرِيكَةِ نَفَسٍ مِائَةَ أَلْفِ أَلْفِ ضِعْفٍ، يَدُومُ مَعَ دَوَامِ اللهِ وَيَبْقَى مَعَ بَقَاءِ اللَّهِ الَّذِي لَا فَنَاءَ وَلَا زَوَالَ وَلَا انْتِقَالَ لِمُلْكِهِ، أَبَدَ الْآبِدِينَ وَدَهْرَ الدَّاهِرِينَ، سَرْمَدًا فِي سَرْمَدٍ. اسْتَجِبْ يَا اللَّهُ.</div>
+        <div class="translation" style="border-left: none; padding-left: 0;">
+            I seek forgiveness from Allah — besides Whom there is nothing worthy of worship — the Living, the Self-Subsisting Sustainer of all creation. And I turn to Him seeking forgiveness that increases one hundred million times with every blink of the eye and with every breath, that remains as long as Allah remains and lasts as long as Allah lasts; for His Dominion will never — for all of eternity — come to an end, cease, or die away. O Allah, accept this prayer.
+        </div>
+
+        <hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 2rem 0;">
+
+        <div class="arabic" style="font-size: 2rem;">اللَّهُمَّ اجْعَلْ دُعَائِي وَافِقَ إِجَابَةً، وَمَسْأَلَتِي وَافَقَتْ مِنْكَ عَطِيَّةً، إِنَّكَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ.</div>
+        <div class="translation" style="border-left: none; padding-left: 0;">
+            O Allah, make mine a prayer that meets with Your acceptance and a request that meets with Your blessing. Indeed You have power over all things.
+        </div>
+
+        <hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 2rem 0;">
+
+        <div class="arabic" style="font-size: 2rem;">اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ وَصَحْبِهِ وَسَلِّمْ تَسْلِيمًا كَثِيرًا، صَلَاةً دَائِمَةً بِدَوَامِكَ بَاقِيَةً بِبَقَائِكَ، لَا مُنْتَهَى لَهَا دُونَ عِلْمِكَ، صَلَاةً تُرْضِيكَ وَتُرْضِيهِ وَتُرْضَى بِهَا عَنَّا، يَا رَبَّ الْعَالَمِينَ، وَسَلِّمْ كَذَلِكَ، وَالْحَمْدُ لِلَّهِ عَلَى ذَلِكَ.</div>
+        <div class="translation" style="border-left: none; padding-left: 0;">
+            O Allah, send blessings on our Master Muhammad, and upon the family of our Master Muhammad, and upon his Companions; and grant them abundant peace. Grant them abundant blessings and peace that remain as long as You remain and last as long as You last, that have bounds only You can know — blessings that please You and him, and by which You are pleased with us, O Lord of the worlds! And for this, all praise is due to Allah.
+        </div>
+
+        <hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 2rem 0;">
+
+        <div class="arabic" style="font-size: 2rem;">سُبْحَانَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُونَ، وَسَلَامٌ عَلَى الْمُرْسَلِينَ، وَالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ.</div>
+        <div class="translation" style="border-left: none; padding-left: 0; margin-bottom: 0;">
+            Glory to your Lord, the Lord of All-Eminence, who is far above what they claim. And peace be upon all the Messengers. And all Praise is due to Allah, the Lord and Cherisher of the Worlds.
+        </div>
+    </div>
+
 </div>
- 
+
 </body>
 </html>
- 
